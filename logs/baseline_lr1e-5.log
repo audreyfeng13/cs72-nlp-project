@@ -1,0 +1,39 @@
+device mps
+Jigsaw sample (50000, 3) toxic rate 0.079
+EXIST en train (3436, 8) test (2208, 8)
+W1104 23:42:28.273000 22052 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 8155.21it/s]
+[transformers] [1mDistilBertForSequenceClassification LOAD REPORT[0m from: distilbert-base-uncased
+Key                     | Status     | 
+------------------------+------------+-
+vocab_layer_norm.weight | UNEXPECTED | 
+vocab_projector.bias    | UNEXPECTED | 
+vocab_transform.bias    | UNEXPECTED | 
+vocab_layer_norm.bias   | UNEXPECTED | 
+vocab_transform.weight  | UNEXPECTED | 
+classifier.bias         | MISSING    | 
+pre_classifier.bias     | MISSING    | 
+classifier.weight       | MISSING    | 
+pre_classifier.weight   | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  stage2 ep1 step 100/108 loss 0.6616 (156s)
+stage2 epoch 1 done, mean loss 0.6544, 169s
+  stage2 ep2 step 100/108 loss 0.5148 (207s)
+stage2 epoch 2 done, mean loss 0.5137, 225s
+  stage2 ep3 step 100/108 loss 0.4489 (169s)
+stage2 epoch 3 done, mean loss 0.4482, 180s
+[stage2 | EXIST en test] n=2208 AUC=0.8019 macroF1=0.7299 acc=0.7310
+[stage2 | Jigsaw val (forgetting check)] n=5000 AUC=0.5905 macroF1=0.5323 acc=0.9108
+              precision    recall  f1-score   support
+
+           0      0.724     0.702     0.713      1050
+           1      0.737     0.757     0.747      1158
+
+    accuracy                          0.731      2208
+   macro avg      0.730     0.730     0.730      2208
+weighted avg      0.731     0.731     0.731      2208
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 10.40it/s]

@@ -1,0 +1,35 @@
+device mps
+train (3436, 7) test (2208, 7) | label cardinality (train) 0.476 | rows with >1 label: 0
+W1105 09:01:22.946000 26467 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/104 [00:00<?, ?it/s]Loading weights: 100%|██████████| 104/104 [00:00<00:00, 19570.53it/s]
+[transformers] [1mDistilBertForSequenceClassification LOAD REPORT[0m from: checkpoints/stage2
+Key               | Status   |                                                                                       
+------------------+----------+---------------------------------------------------------------------------------------
+classifier.bias   | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([2]) vs model:torch.Size([5])          
+classifier.weight | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([2, 768]) vs model:torch.Size([5, 768])
+
+Notes:
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+epoch 1 mean BCE loss 0.3790 (48s)
+epoch 2 mean BCE loss 0.2641 (48s)
+epoch 3 mean BCE loss 0.2260 (48s)
+
+=== EXIST en TEST, all rows (n=2208) | macro-F1 over 5 categories = 0.2464 | macro-P 0.498 macro-R 0.177
+category                         precision  recall      F1  support
+ideological-inequality               0.772   0.336   0.469      333
+stereotyping-dominance               0.604   0.210   0.312      262
+objectification                      0.600   0.040   0.075      150
+sexual-violence                      0.513   0.298   0.377      198
+misogyny-non-sexual-violence         0.000   0.000   0.000      215
+
+=== EXIST en TEST, sexist rows only (n=1158) | macro-F1 over 5 categories = 0.2596 | macro-P 0.621 macro-R 0.177
+category                         precision  recall      F1  support
+ideological-inequality               0.903   0.336   0.490      333
+stereotyping-dominance               0.688   0.210   0.322      262
+objectification                      0.857   0.040   0.076      150
+sexual-violence                      0.656   0.298   0.410      198
+misogyny-non-sexual-violence         0.000   0.000   0.000      215
+
+predicted-label cardinality on test: 0.163 | rows with >1 predicted label: 0 | rows with none: 1847
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  7.13it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  7.12it/s]
+saved checkpoints/stage2_categories

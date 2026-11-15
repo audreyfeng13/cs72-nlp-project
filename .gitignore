@@ -1,0 +1,25 @@
+# Datasets (licensed / large) - see README for download instructions
+EXIST2021-2025_datasets/
+jigsaw-unintended-bias-in-toxicity-classification/
+augmented/EXIST2021_training_augmented.tsv
+
+# Model checkpoints and trained artifacts (several GB)
+checkpoints*/
+models/
+
+# Scraped Instagram comments from real users (personal data) and anything derived from them
+eval_set_raw.csv
+eval_set_scored.csv
+logs/llm_zeroshot_preds.jsonl
+
+# Demo database (stores user-entered text)
+analyses.db
+
+# Python / env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+logs/run_roberta_aborted.log

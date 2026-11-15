@@ -1,0 +1,121 @@
+text,label,category,source
+"Women shouldn't be allowed to commentate on men's sports, they don't understand the game",1,explicit_sexism,synthetic
+"Go back to the kitchen and leave tennis to the men",1,explicit_sexism,synthetic
+"Women's sports are boring, nobody would watch if they weren't pretty",1,explicit_sexism,synthetic
+"She only got sponsored because of her body, not her talent",1,explicit_sexism,synthetic
+"Girls cant drive, F1 is no place for a woman",1,explicit_sexism,synthetic
+"A woman's place is at home raising kids not chasing medals",1,explicit_sexism,synthetic
+"Women are too emotional to compete at this level",1,explicit_sexism,synthetic
+"Why is a girl coaching a men's team? Ridiculous",1,explicit_sexism,synthetic
+"Females just aren't built for leadership, thats biology",1,explicit_sexism,synthetic
+"Stick to posting pictures, sweetheart, leave the analysis to real men",1,explicit_sexism,synthetic
+"Women athletes get paid too much for how little they bring in",1,explicit_sexism,synthetic
+"Imagine thinking a woman could ever beat a man at anything that matters",1,explicit_sexism,synthetic
+"This is why women shouldn't be in charge of anything",1,explicit_sexism,synthetic
+"Of course she lost, women crack under pressure every time",1,explicit_sexism,synthetic
+"She should smile more and talk less",1,explicit_sexism,synthetic
+"Women refs have no business on a rugby pitch",1,explicit_sexism,synthetic
+"Typical woman, cant take criticism without crying",1,explicit_sexism,synthetic
+"Men are naturally smarter, thats why they run everything",1,explicit_sexism,synthetic
+"Let the boys play, girls just slow the game down",1,explicit_sexism,synthetic
+"Women only want attention, that's all this is about",1,explicit_sexism,synthetic
+"She's pretty good for a girl",1,subtle_sexism,synthetic
+"Not bad at all, I didn't expect a woman to understand the offside rule",1,subtle_sexism,synthetic
+"Great player but honestly the game is better when the men are on",1,subtle_sexism,synthetic
+"She'd be even more successful if she'd just calm down and stop being so aggressive",1,subtle_sexism,synthetic
+"Behind every great man there's a woman making his sandwich lol",1,subtle_sexism,synthetic
+"Women are better at supporting roles, no offense",1,subtle_sexism,synthetic
+"I love strong women as long as they know when to step back",1,subtle_sexism,synthetic
+"Wow a female doctor? I'd want to see a real doctor too",1,subtle_sexism,synthetic
+"Her husband must be so proud of her cooking, that's what matters at the end of the day",1,subtle_sexism,synthetic
+"Cute that she thinks she can compete with the guys",1,subtle_sexism,synthetic
+"She probably slept her way to the sponsorship deals",1,subtle_sexism,synthetic
+"Women just aren't as into sports, they only watch for the guys",1,subtle_sexism,synthetic
+"This is great for a girls' game, I guess",1,subtle_sexism,synthetic
+"Maybe she should worry about finding a husband instead of rankings",1,subtle_sexism,synthetic
+"You throw like a girl 😂",1,subtle_sexism,synthetic
+"Typical female driver",1,subtle_sexism,synthetic
+"Hormones must be affecting her game this week",1,subtle_sexism,synthetic
+"Good thing she's cute, because her serve sure isn't",1,subtle_sexism,synthetic
+"She's too old and too ambitious, men don't like that",1,subtle_sexism,synthetic
+"Women should be grateful anyone even broadcasts their matches",1,subtle_sexism,synthetic
+"Send nudes",1,objectification_harassment,synthetic
+"Turn around, wanna see the back 😏",1,objectification_harassment,synthetic
+"Hot body, shame about the brain",1,objectification_harassment,synthetic
+"Come sit on my lap and I'll teach you the rules",1,objectification_harassment,synthetic
+"You'd look better with less clothes on",1,objectification_harassment,synthetic
+"Nice body, bet she's easy",1,objectification_harassment,synthetic
+"I'd do anything to get a night with you, call me",1,objectification_harassment,synthetic
+"Just here for the legs honestly",1,objectification_harassment,synthetic
+"Nobody is watching for the sport, we're all watching the ass",1,objectification_harassment,synthetic
+"Show us more babe, you know you want to",1,objectification_harassment,synthetic
+"Would smash 🔥",1,objectification_harassment,synthetic
+"Shut up and look pretty",1,objectification_harassment,synthetic
+"All women are the same, only good for one thing",1,objectification_harassment,synthetic
+"Bet she's a nightmare in real life but who cares with a body like that",1,objectification_harassment,synthetic
+"Wife material? Nah, just for fun",1,objectification_harassment,synthetic
+"You owe me a smile, gorgeous",1,objectification_harassment,synthetic
+"DM me, I'll show you what a real man can do",1,objectification_harassment,synthetic
+"Dress like that and you're asking for attention",1,objectification_harassment,synthetic
+"Is that your only talent, being hot?",1,objectification_harassment,synthetic
+"Women like her exist only to be looked at",1,objectification_harassment,synthetic
+"Women's sports deserve the same coverage and pay as men's. Full stop.",0,calling_out_sexism,synthetic
+"Imagine telling an Olympic athlete to go back to the kitchen. Disgusting comments in here.",0,calling_out_sexism,synthetic
+"The sexism in this comment section is exhausting",0,calling_out_sexism,synthetic
+"She's one of the best players in the world, period. Gender has nothing to do with it.",0,calling_out_sexism,synthetic
+"Reporting these comments, women belong in every sport",0,calling_out_sexism,synthetic
+"Why do people always comment on her body instead of her game?",0,calling_out_sexism,synthetic
+"Stop calling strong women aggressive, it's called being competitive",0,calling_out_sexism,synthetic
+"Equal prize money is long overdue and she earned every cent",0,calling_out_sexism,synthetic
+"Telling a woman to smile is not a compliment, folks",0,calling_out_sexism,synthetic
+"Tired of men explaining the game to the women who play it professionally",0,calling_out_sexism,synthetic
+"So many sexist replies here. She just broke a national record, congratulations!",0,calling_out_sexism,synthetic
+"Anyone saying women can't lead should look at her team's record",0,calling_out_sexism,synthetic
+"Misogyny in sports media is a real problem, this thread proves it",0,calling_out_sexism,synthetic
+"She does not owe anyone a smile or a pose",0,calling_out_sexism,synthetic
+"Thank you for speaking up about the harassment you face, it's not ok",0,calling_out_sexism,synthetic
+"Women belong in the commentary box and in the boardroom",0,calling_out_sexism,synthetic
+"Female athletes get criticized for everything, from their looks to their tone",0,calling_out_sexism,synthetic
+"That heckler should be ashamed of the things he said to her",0,calling_out_sexism,synthetic
+"We need more women coaches at every level",0,calling_out_sexism,synthetic
+"Her hard work proves wrong everyone who said women couldn't do this",0,calling_out_sexism,synthetic
+"You look amazing in that dress! Love the colour",0,benign,synthetic
+"Stunning outfit, where is it from?",0,benign,synthetic
+"So proud of you, what an incredible match",0,benign,synthetic
+"Congratulations on the win, you deserved it",0,benign,synthetic
+"Best serve I've seen all season",0,benign,synthetic
+"What a try! The whole team played brilliantly",0,benign,synthetic
+"Beautiful photo, great location",0,benign,synthetic
+"Your skin looks so glowing, what's your routine?",0,benign,synthetic
+"Happy birthday! Hope you have an amazing day",0,benign,synthetic
+"Can't wait to watch you at the next tournament",0,benign,synthetic
+"That tackle was unreal, defence is on fire",0,benign,synthetic
+"Love this song, it's on repeat all week",0,benign,synthetic
+"The track conditions looked rough today but great racing",0,benign,synthetic
+"Who else is watching the replay again? Incredible",0,benign,synthetic
+"Gorgeous hair, did you do it yourself?",0,benign,synthetic
+"Such a fun collab, loved the video",0,benign,synthetic
+"Which team are they playing next?",0,benign,synthetic
+"What camera do you use for these photos?",0,benign,synthetic
+"Good luck this weekend, we're all cheering for you",0,benign,synthetic
+"That rally was insane, over thirty shots",0,benign,synthetic
+"Great coaching decision to switch the lineup at half time",0,benign,synthetic
+"This brought a huge smile to my face today",0,benign,synthetic
+"Wishing you a speedy recovery, get well soon",0,benign,synthetic
+"The new training facility looks great",0,benign,synthetic
+"Her backhand has improved so much this year",0,benign,synthetic
+"Love the energy, keep going!",0,benign,synthetic
+"Congrats to the whole squad on a fantastic season",0,benign,synthetic
+"This is such a vibe, perfect for summer",0,benign,synthetic
+"Amazing flexibility and strength, beautiful routine",0,benign,synthetic
+"Honestly the best match of the tournament",0,benign,synthetic
+"This referee is blind, worst call I've ever seen",0,toxic_not_sexist,synthetic
+"You are a terrible player, retire already",0,toxic_not_sexist,synthetic
+"What a bunch of idiots running this club",0,toxic_not_sexist,synthetic
+"Total garbage performance, embarrassing",0,toxic_not_sexist,synthetic
+"Shut up and let the experts talk, nobody asked you",0,toxic_not_sexist,synthetic
+"The coach should be fired immediately, useless",0,toxic_not_sexist,synthetic
+"Stop whining about the schedule, everyone has the same rules",0,toxic_not_sexist,synthetic
+"Absolute clown show of a team",0,toxic_not_sexist,synthetic
+"This is the dumbest take I've seen all day",0,toxic_not_sexist,synthetic
+"You're a fraud and everybody knows it",0,toxic_not_sexist,synthetic

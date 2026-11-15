@@ -1,0 +1,47 @@
+EXIST en+twitter: train (3436, 8) test (1716, 8) | sexist rate train 0.476 test 0.500
+Jigsaw (1804871, 3) toxic rate 0.080
+vectorized (1624383, 200000) 72s
+trained 117s
+saved models/tfidf_lr.joblib
+
+=== Jigsaw held-out val (toxic) (n=180488) AUC=0.9393 macroF1=0.7755
+[[153991  12064]
+ [  3133  11300]]
+              precision    recall  f1-score   support
+
+           0      0.980     0.927     0.953    166055
+           1      0.484     0.783     0.598     14433
+
+    accuracy                          0.916    180488
+   macro avg      0.732     0.855     0.775    180488
+weighted avg      0.940     0.916     0.925    180488
+
+
+=== EXIST en/twitter TRAIN (sexist) (n=3436) AUC=0.6635 macroF1=0.6104
+[[1254  546]
+ [ 775  861]]
+              precision    recall  f1-score   support
+
+           0      0.618     0.697     0.655      1800
+           1      0.612     0.526     0.566      1636
+
+    accuracy                          0.616      3436
+   macro avg      0.615     0.611     0.610      3436
+weighted avg      0.615     0.616     0.613      3436
+
+
+=== EXIST en/twitter TEST (sexist) (n=1716) AUC=0.6503 macroF1=0.5956
+[[568 290]
+ [401 457]]
+              precision    recall  f1-score   support
+
+           0      0.586     0.662     0.622       858
+           1      0.612     0.533     0.569       858
+
+    accuracy                          0.597      1716
+   macro avg      0.599     0.597     0.596      1716
+weighted avg      0.599     0.597     0.596      1716
+
+
+Top toxic features: ['stupid', 'idiots', 'idiot', 'stupidity', 'idiotic', 'pathetic', 'crap', 'ignorant', 'dumb', 'hypocrite', 'damn', 'shit', 'fools', 'ridiculous', 'morons', 'idiocy', 'hypocrites', 'moron', 'foolish', 'fool']
+Top non-toxic features: ['fool me', 'knee jerk', 'give damn', 'ignorant of', 'dumb dumb', 'to fool', 'can fool', 'too damn', 'not stupid', 'pretty damn', 'don fool', 'not kill', 'pretty darn', 'dumb down', 'http', 'damn near', 'april', 'pickup', 'white house', 'hang on']

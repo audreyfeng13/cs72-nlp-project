@@ -1,0 +1,57 @@
+device mps
+Jigsaw sample (50000, 3) toxic rate 0.079
+EXIST en train (3436, 8) test (2208, 8)
+W1104 23:06:54.962000 20279 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 13978.22it/s]
+[transformers] [1mDistilBertForSequenceClassification LOAD REPORT[0m from: distilbert-base-uncased
+Key                     | Status     | 
+------------------------+------------+-
+vocab_projector.bias    | UNEXPECTED | 
+vocab_transform.weight  | UNEXPECTED | 
+vocab_transform.bias    | UNEXPECTED | 
+vocab_layer_norm.weight | UNEXPECTED | 
+vocab_layer_norm.bias   | UNEXPECTED | 
+classifier.weight       | MISSING    | 
+pre_classifier.weight   | MISSING    | 
+classifier.bias         | MISSING    | 
+pre_classifier.bias     | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  stage1 ep1 step 100/1407 loss 0.3841 (55s)
+  stage1 ep1 step 200/1407 loss 0.3013 (108s)
+  stage1 ep1 step 300/1407 loss 0.2587 (167s)
+  stage1 ep1 step 400/1407 loss 0.2410 (238s)
+  stage1 ep1 step 500/1407 loss 0.2255 (305s)
+  stage1 ep1 step 600/1407 loss 0.2169 (380s)
+  stage1 ep1 step 700/1407 loss 0.2100 (456s)
+  stage1 ep1 step 800/1407 loss 0.2005 (532s)
+  stage1 ep1 step 900/1407 loss 0.1953 (607s)
+  stage1 ep1 step 1000/1407 loss 0.1914 (682s)
+  stage1 ep1 step 1100/1407 loss 0.1865 (753s)
+  stage1 ep1 step 1200/1407 loss 0.1836 (826s)
+  stage1 ep1 step 1300/1407 loss 0.1812 (903s)
+  stage1 ep1 step 1400/1407 loss 0.1792 (979s)
+stage1 epoch 1 done, mean loss 0.1789, 983s
+[stage1 | Jigsaw val] n=5000 AUC=0.9425 macroF1=0.7704 acc=0.9406
+[stage1 | EXIST en test (zero-shot)] n=2208 AUC=0.6447 macroF1=0.5529 acc=0.5675
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 10.46it/s]
+  stage2 ep1 step 100/108 loss 0.6558 (79s)
+stage2 epoch 1 done, mean loss 0.6467, 85s
+  stage2 ep2 step 100/108 loss 0.4976 (67s)
+stage2 epoch 2 done, mean loss 0.4954, 72s
+  stage2 ep3 step 100/108 loss 0.4446 (68s)
+stage2 epoch 3 done, mean loss 0.4423, 75s
+[stage2 | EXIST en test] n=2208 AUC=0.8081 macroF1=0.7379 acc=0.7423
+[stage2 | Jigsaw val (forgetting check)] n=5000 AUC=0.8867 macroF1=0.6354 acc=0.9202
+              precision    recall  f1-score   support
+
+           0      0.776     0.644     0.704      1050
+           1      0.720     0.832     0.772      1158
+
+    accuracy                          0.742      2208
+   macro avg      0.748     0.738     0.738      2208
+weighted avg      0.747     0.742     0.740      2208
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.17it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.17it/s]
