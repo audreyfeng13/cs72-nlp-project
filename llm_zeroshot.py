@@ -2,6 +2,8 @@
 
 Usage:  export ANTHROPIC_API_KEY=...
         python llm_zeroshot.py [--limit 20] [--model claude-haiku-5-5] [--workers 4]
+Own data: python llm_zeroshot.py --input eval_labeled_A.csv   (needs columns id, text; optional 0/1 column `sexist`)
+          -> writes <input>_haiku.csv (id, haiku_reply, haiku_pred) for results_table.py --haiku
 
 Predictions are cached in --cache (JSONL), so an interrupted run resumes where it left off.
 """
@@ -20,18 +22,29 @@ ap.add_argument('--workers', type=int, default=4)
 ap.add_argument('--max-tokens', type=int, default=1024, help='headroom in case the model emits reasoning before the answer')
 ap.add_argument('--delay', type=float, default=0.0, help='seconds each worker sleeps after a call')
 ap.add_argument('--cache', default='logs/llm_zeroshot_preds.jsonl')
+ap.add_argument('--input', default=None, help='your own CSV (id, text[, sexist]) instead of the EXIST test set')
+ap.add_argument('--out', default=None, help='with --input: output CSV (default <input>_haiku.csv)')
 a = ap.parse_args()
+if a.input and a.cache == 'logs/llm_zeroshot_preds.jsonl':
+    a.cache = f'logs/llm_zeroshot_{os.path.splitext(os.path.basename(a.input))[0]}.jsonl'
 
 if not os.environ.get('ANTHROPIC_API_KEY'):
     sys.exit('ANTHROPIC_API_KEY is not set.')
 
-TEST = 'EXIST2021-2025_datasets/2021 EXIST/test/EXIST2021_test_labeled.tsv'
-df = pd.read_csv(TEST, sep='\t', dtype={'id': str})
-df = df[df.language == 'en'].copy()
-df['y'] = (df.task1 == 'sexist').astype(int)
-if a.limit:
-    df = df.head(a.limit)
-print(f'EXIST en test: {len(df)} rows, sexist rate {df.y.mean():.3f}')
+if a.input:
+    df = pd.read_csv(a.input, dtype={'id': str})
+    df['y'] = df['sexist'].astype(int) if 'sexist' in df else None
+    if a.limit:
+        df = df.head(a.limit)
+    print(f'{a.input}: {len(df)} rows' + (f', sexist rate {df.y.mean():.3f}' if 'sexist' in df else ''))
+else:
+    TEST = 'EXIST2021-2025_datasets/2021 EXIST/test/EXIST2021_test_labeled.tsv'
+    df = pd.read_csv(TEST, sep='\t', dtype={'id': str})
+    df = df[df.language == 'en'].copy()
+    df['y'] = (df.task1 == 'sexist').astype(int)
+    if a.limit:
+        df = df.head(a.limit)
+    print(f'EXIST en test: {len(df)} rows, sexist rate {df.y.mean():.3f}')
 
 PROMPT = "Is the following comment sexist? Answer only 'yes' or 'no'. Comment: {text}"
 client = anthropic.Anthropic(max_retries=6)  # SDK backs off on 429/5xx
@@ -94,9 +107,15 @@ print(f'\nNo response (API errors, rerun to retry): {missing} | unparseable repl
 if unparsed:
     print(df[df.reply.notna() & df.pred.isna()].reply.value_counts().head(5).to_string())
 
-# Unparseable/missing counted as "no" (not sexist) so all 2,208 rows are scored on the same set.
-y, p = df.y.values, df.pred.fillna(0).astype(int).values
-pr, rc, f1, _ = precision_recall_fscore_support(y, p, average='binary', zero_division=0)
-print(f'\n[{a.model} zero-shot | EXIST en test] n={len(df)}')
-print(f'accuracy={accuracy_score(y, p):.4f} precision={pr:.4f} recall={rc:.4f} '
-      f'F1(sexist)={f1:.4f} macroF1={f1_score(y, p, average="macro"):.4f}')
+# Unparseable/missing counted as "no" (not sexist) so every row is scored on the same set.
+df['haiku_pred'] = df.pred.fillna(0).astype(int)
+if a.input:
+    out = a.out or os.path.splitext(a.input)[0] + '_haiku.csv'
+    df[['id', 'reply', 'haiku_pred']].rename(columns={'reply': 'haiku_reply'}).to_csv(out, index=False)
+    print(f'wrote {out}')
+if df.y.notna().all():
+    y, p = df.y.astype(int).values, df.haiku_pred.values
+    pr, rc, f1, _ = precision_recall_fscore_support(y, p, average='binary', zero_division=0)
+    print(f'\n[{a.model} zero-shot | {a.input or "EXIST en test"}] n={len(df)}')
+    print(f'accuracy={accuracy_score(y, p):.4f} precision={pr:.4f} recall={rc:.4f} '
+          f'F1(sexist)={f1:.4f} macroF1={f1_score(y, p, average="macro"):.4f}')

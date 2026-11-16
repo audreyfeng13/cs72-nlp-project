@@ -23,3 +23,25 @@ venv/
 .env
 .DS_Store
 logs/run_roberta_aborted.log
+
+# Human-labeled sheets of real users' comments (personal data)
+labeling_*.csv
+eval_set_ids.csv
+eval_set_adjudication.csv
+eval_set_labeled*.csv
+trial_*.csv
+eval_set_topup*.csv
+eval_set_combined_raw.csv
+
+# Annotator-labeled evaluation files (real comments)
+eval_labeled_*.csv
+results_table_*.csv
+logs/llm_zeroshot_*.jsonl
+exist_test_scores.csv
+label_review*.csv
+label_fixes.csv
+results_table_labeled_A.txt
+
+# Archived superseded label files and trial runs (real comments)
+archive/
+logs/llm_categories_*.jsonl

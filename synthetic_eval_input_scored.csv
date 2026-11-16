@@ -1,0 +1,121 @@
+id,text,sexist,category,source,p_distilbert_stage1,distilbert_stage1_pred,p_distilbert_stage2,distilbert_stage2_pred,p_bert_stage1,bert_stage1_pred,p_bert_stage2,bert_stage2_pred,p_roberta_stage1,roberta_stage1_pred,p_roberta_stage2,roberta_stage2_pred
+1,"Women shouldn't be allowed to commentate on men's sports, they don't understand the game",1,explicit_sexism,synthetic,0.0145,0,0.3519,0,0.0124,0,0.6334,1,0.0814,0,0.8313,1
+2,Go back to the kitchen and leave tennis to the men,1,explicit_sexism,synthetic,0.0179,0,0.0505,0,0.0102,0,0.0782,0,0.01,0,0.1912,0
+3,"Women's sports are boring, nobody would watch if they weren't pretty",1,explicit_sexism,synthetic,0.0581,0,0.2252,0,0.0377,0,0.5492,1,0.1547,0,0.8177,1
+4,"She only got sponsored because of her body, not her talent",1,explicit_sexism,synthetic,0.0048,0,0.0332,0,0.0053,0,0.1582,0,0.005,0,0.032,0
+5,"Girls cant drive, F1 is no place for a woman",1,explicit_sexism,synthetic,0.0312,0,0.7546,1,0.0224,0,0.9403,1,0.1597,0,0.9284,1
+6,A woman's place is at home raising kids not chasing medals,1,explicit_sexism,synthetic,0.01,0,0.21,0,0.0049,0,0.1827,0,0.0058,0,0.4206,0
+7,Women are too emotional to compete at this level,1,explicit_sexism,synthetic,0.0136,0,0.3472,0,0.011,0,0.6536,1,0.0294,0,0.8429,1
+8,Why is a girl coaching a men's team? Ridiculous,1,explicit_sexism,synthetic,0.9228,1,0.8258,1,0.9263,1,0.881,1,0.943,1,0.9141,1
+9,"Females just aren't built for leadership, thats biology",1,explicit_sexism,synthetic,0.0083,0,0.4511,0,0.0148,0,0.6249,1,0.0683,0,0.4914,0
+10,"Stick to posting pictures, sweetheart, leave the analysis to real men",1,explicit_sexism,synthetic,0.023,0,0.1089,0,0.0078,0,0.1461,0,0.0299,0,0.0469,0
+11,Women athletes get paid too much for how little they bring in,1,explicit_sexism,synthetic,0.0129,0,0.0958,0,0.0168,0,0.1645,0,0.0129,0,0.7705,1
+12,Imagine thinking a woman could ever beat a man at anything that matters,1,explicit_sexism,synthetic,0.2194,0,0.8313,1,0.0268,0,0.8534,1,0.2022,0,0.9048,1
+13,This is why women shouldn't be in charge of anything,1,explicit_sexism,synthetic,0.0358,0,0.7978,1,0.0189,0,0.8426,1,0.0662,0,0.8768,1
+14,"Of course she lost, women crack under pressure every time",1,explicit_sexism,synthetic,0.099,0,0.8235,1,0.0645,0,0.8537,1,0.0918,0,0.7988,1
+15,She should smile more and talk less,1,explicit_sexism,synthetic,0.0091,0,0.0225,0,0.007,0,0.0264,0,0.0086,0,0.1363,0
+16,Women refs have no business on a rugby pitch,1,explicit_sexism,synthetic,0.0237,0,0.1802,0,0.0098,0,0.1435,0,0.1166,0,0.7726,1
+17,"Typical woman, cant take criticism without crying",1,explicit_sexism,synthetic,0.0314,0,0.5821,1,0.0179,0,0.5153,1,0.1339,0,0.8701,1
+18,"Men are naturally smarter, thats why they run everything",1,explicit_sexism,synthetic,0.0153,0,0.2007,0,0.0183,0,0.6469,1,0.0555,0,0.2277,0
+19,"Let the boys play, girls just slow the game down",1,explicit_sexism,synthetic,0.025,0,0.0948,0,0.0068,0,0.0974,0,0.0118,0,0.2585,0
+20,"Women only want attention, that's all this is about",1,explicit_sexism,synthetic,0.0272,0,0.683,1,0.0351,0,0.8703,1,0.0397,0,0.9226,1
+21,She's pretty good for a girl,1,subtle_sexism,synthetic,0.0072,0,0.0889,0,0.0078,0,0.054,0,0.0139,0,0.7518,1
+22,"Not bad at all, I didn't expect a woman to understand the offside rule",1,subtle_sexism,synthetic,0.0099,0,0.6097,1,0.004,0,0.3632,0,0.0104,0,0.8821,1
+23,Great player but honestly the game is better when the men are on,1,subtle_sexism,synthetic,0.0065,0,0.0161,0,0.0032,0,0.0099,0,0.0034,0,0.005,0
+24,She'd be even more successful if she'd just calm down and stop being so aggressive,1,subtle_sexism,synthetic,0.0313,0,0.0844,0,0.033,0,0.1047,0,0.0076,0,0.0232,0
+25,Behind every great man there's a woman making his sandwich lol,1,subtle_sexism,synthetic,0.0669,0,0.6339,1,0.0371,0,0.4831,0,0.0527,0,0.7715,1
+26,"Women are better at supporting roles, no offense",1,subtle_sexism,synthetic,0.0247,0,0.5929,1,0.0085,0,0.6805,1,0.0211,0,0.7768,1
+27,I love strong women as long as they know when to step back,1,subtle_sexism,synthetic,0.0156,0,0.5505,1,0.0064,0,0.0748,0,0.0236,0,0.7129,1
+28,Wow a female doctor? I'd want to see a real doctor too,1,subtle_sexism,synthetic,0.0345,0,0.4704,0,0.0101,0,0.6402,1,0.0282,0,0.7281,1
+29,"Her husband must be so proud of her cooking, that's what matters at the end of the day",1,subtle_sexism,synthetic,0.0046,0,0.1736,0,0.0036,0,0.0714,0,0.0046,0,0.5512,1
+30,Cute that she thinks she can compete with the guys,1,subtle_sexism,synthetic,0.0213,0,0.1087,0,0.0054,0,0.0923,0,0.0069,0,0.0633,0
+31,She probably slept her way to the sponsorship deals,1,subtle_sexism,synthetic,0.0061,0,0.0272,0,0.0037,0,0.0171,0,0.0089,0,0.0119,0
+32,"Women just aren't as into sports, they only watch for the guys",1,subtle_sexism,synthetic,0.0237,0,0.5273,1,0.0401,0,0.8536,1,0.0179,0,0.8635,1
+33,"This is great for a girls' game, I guess",1,subtle_sexism,synthetic,0.0054,0,0.0177,0,0.0043,0,0.0385,0,0.0031,0,0.1509,0
+34,Maybe she should worry about finding a husband instead of rankings,1,subtle_sexism,synthetic,0.0117,0,0.7935,1,0.0049,0,0.5169,1,0.004,0,0.79,1
+35,You throw like a girl 😂,1,subtle_sexism,synthetic,0.1508,0,0.7395,1,0.055,0,0.5729,1,0.2332,0,0.8041,1
+36,Typical female driver,1,subtle_sexism,synthetic,0.0539,0,0.7495,1,0.0175,0,0.9348,1,0.0313,0,0.8815,1
+37,Hormones must be affecting her game this week,1,subtle_sexism,synthetic,0.0154,0,0.1884,0,0.0088,0,0.3278,0,0.0061,0,0.0117,0
+38,"Good thing she's cute, because her serve sure isn't",1,subtle_sexism,synthetic,0.0087,0,0.0414,0,0.0208,0,0.1043,0,0.0215,0,0.0384,0
+39,"She's too old and too ambitious, men don't like that",1,subtle_sexism,synthetic,0.0816,0,0.5838,1,0.051,0,0.826,1,0.0649,0,0.8326,1
+40,Women should be grateful anyone even broadcasts their matches,1,subtle_sexism,synthetic,0.0107,0,0.207,0,0.0132,0,0.7147,1,0.0225,0,0.7937,1
+41,Send nudes,1,objectification_harassment,synthetic,0.0876,0,0.6685,1,0.0347,0,0.1643,0,0.0843,0,0.6288,1
+42,"Turn around, wanna see the back 😏",1,objectification_harassment,synthetic,0.0092,0,0.0104,0,0.0064,0,0.011,0,0.0083,0,0.0078,0
+43,"Hot body, shame about the brain",1,objectification_harassment,synthetic,0.3269,0,0.4019,0,0.1319,0,0.3453,0,0.2853,0,0.4166,0
+44,Come sit on my lap and I'll teach you the rules,1,objectification_harassment,synthetic,0.0108,0,0.0191,0,0.0068,0,0.0187,0,0.0099,0,0.0555,0
+45,You'd look better with less clothes on,1,objectification_harassment,synthetic,0.0099,0,0.0451,0,0.006,0,0.0258,0,0.0058,0,0.0291,0
+46,"Nice body, bet she's easy",1,objectification_harassment,synthetic,0.0108,0,0.0848,0,0.0277,0,0.4866,0,0.0298,0,0.5685,1
+47,"I'd do anything to get a night with you, call me",1,objectification_harassment,synthetic,0.0232,0,0.054,0,0.0077,0,0.0413,0,0.008,0,0.1157,0
+48,Just here for the legs honestly,1,objectification_harassment,synthetic,0.0096,0,0.0219,0,0.0092,0,0.0461,0,0.0064,0,0.0108,0
+49,"Nobody is watching for the sport, we're all watching the ass",1,objectification_harassment,synthetic,0.9419,1,0.2233,0,0.9681,1,0.1127,0,0.9222,1,0.0198,0
+50,"Show us more babe, you know you want to",1,objectification_harassment,synthetic,0.0272,0,0.0275,0,0.0053,0,0.0147,0,0.072,0,0.1994,0
+51,Would smash 🔥,1,objectification_harassment,synthetic,0.0274,0,0.0233,0,0.0356,0,0.025,0,0.2029,0,0.0473,0
+52,Shut up and look pretty,1,objectification_harassment,synthetic,0.0319,0,0.0165,0,0.1365,0,0.0579,0,0.1413,0,0.1134,0
+53,"All women are the same, only good for one thing",1,objectification_harassment,synthetic,0.0331,0,0.7391,1,0.0332,0,0.8785,1,0.0225,0,0.8287,1
+54,Bet she's a nightmare in real life but who cares with a body like that,1,objectification_harassment,synthetic,0.0774,0,0.1232,0,0.1937,0,0.5468,1,0.1715,0,0.2304,0
+55,"Wife material? Nah, just for fun",1,objectification_harassment,synthetic,0.0109,0,0.706,1,0.016,0,0.9114,1,0.009,0,0.7957,1
+56,"You owe me a smile, gorgeous",1,objectification_harassment,synthetic,0.0157,0,0.0156,0,0.0053,0,0.0128,0,0.0386,0,0.0158,0
+57,"DM me, I'll show you what a real man can do",1,objectification_harassment,synthetic,0.0125,0,0.0694,0,0.0057,0,0.0328,0,0.027,0,0.0327,0
+58,Dress like that and you're asking for attention,1,objectification_harassment,synthetic,0.0184,0,0.1846,0,0.0086,0,0.1799,0,0.0109,0,0.3064,0
+59,"Is that your only talent, being hot?",1,objectification_harassment,synthetic,0.0109,0,0.1013,0,0.0127,0,0.1236,0,0.0337,0,0.1735,0
+60,Women like her exist only to be looked at,1,objectification_harassment,synthetic,0.0593,0,0.8007,1,0.0631,0,0.8916,1,0.0377,0,0.7736,1
+61,Women's sports deserve the same coverage and pay as men's. Full stop.,0,calling_out_sexism,synthetic,0.006,0,0.0295,0,0.005,0,0.1543,0,0.0277,0,0.3689,0
+62,Imagine telling an Olympic athlete to go back to the kitchen. Disgusting comments in here.,0,calling_out_sexism,synthetic,0.6092,1,0.1165,0,0.5902,1,0.1037,0,0.3144,0,0.1783,0
+63,The sexism in this comment section is exhausting,0,calling_out_sexism,synthetic,0.1644,0,0.662,1,0.1519,0,0.413,0,0.1179,0,0.6182,1
+64,"She's one of the best players in the world, period. Gender has nothing to do with it.",0,calling_out_sexism,synthetic,0.0149,0,0.5664,1,0.0173,0,0.5964,1,0.0091,0,0.358,0
+65,"Reporting these comments, women belong in every sport",0,calling_out_sexism,synthetic,0.0193,0,0.671,1,0.0108,0,0.5818,1,0.0313,0,0.7287,1
+66,Why do people always comment on her body instead of her game?,0,calling_out_sexism,synthetic,0.0078,0,0.2057,0,0.0086,0,0.2462,0,0.0073,0,0.0857,0
+67,"Stop calling strong women aggressive, it's called being competitive",0,calling_out_sexism,synthetic,0.0222,0,0.6568,1,0.0111,0,0.5798,1,0.0721,0,0.8872,1
+68,Equal prize money is long overdue and she earned every cent,0,calling_out_sexism,synthetic,0.0038,0,0.0678,0,0.0043,0,0.0199,0,0.0028,0,0.0044,0
+69,"Telling a woman to smile is not a compliment, folks",0,calling_out_sexism,synthetic,0.0123,0,0.1534,0,0.0055,0,0.3281,0,0.0138,0,0.7864,1
+70,Tired of men explaining the game to the women who play it professionally,0,calling_out_sexism,synthetic,0.0211,0,0.3615,0,0.0067,0,0.7054,1,0.0281,0,0.7943,1
+71,"So many sexist replies here. She just broke a national record, congratulations!",0,calling_out_sexism,synthetic,0.3125,0,0.6569,1,0.0751,0,0.1308,0,0.2164,0,0.7327,1
+72,Anyone saying women can't lead should look at her team's record,0,calling_out_sexism,synthetic,0.0081,0,0.0914,0,0.0093,0,0.2149,0,0.0216,0,0.5075,1
+73,"Misogyny in sports media is a real problem, this thread proves it",0,calling_out_sexism,synthetic,0.0233,0,0.3395,0,0.0042,0,0.5743,1,0.0744,0,0.6217,1
+74,She does not owe anyone a smile or a pose,0,calling_out_sexism,synthetic,0.0062,0,0.0397,0,0.0074,0,0.0366,0,0.0036,0,0.0067,0
+75,"Thank you for speaking up about the harassment you face, it's not ok",0,calling_out_sexism,synthetic,0.0163,0,0.0243,0,0.0076,0,0.0734,0,0.0182,0,0.0432,0
+76,Women belong in the commentary box and in the boardroom,0,calling_out_sexism,synthetic,0.0134,0,0.4455,0,0.0115,0,0.7456,1,0.0445,0,0.7125,1
+77,"Female athletes get criticized for everything, from their looks to their tone",0,calling_out_sexism,synthetic,0.0323,0,0.4332,0,0.06,0,0.7231,1,0.0811,0,0.9109,1
+78,That heckler should be ashamed of the things he said to her,0,calling_out_sexism,synthetic,0.2215,0,0.1411,0,0.2207,0,0.2285,0,0.1645,0,0.3385,0
+79,We need more women coaches at every level,0,calling_out_sexism,synthetic,0.0078,0,0.0322,0,0.0049,0,0.0225,0,0.0111,0,0.2466,0
+80,Her hard work proves wrong everyone who said women couldn't do this,0,calling_out_sexism,synthetic,0.0451,0,0.7465,1,0.0132,0,0.8292,1,0.1278,0,0.795,1
+81,You look amazing in that dress! Love the colour,0,benign,synthetic,0.0167,0,0.0943,0,0.0071,0,0.0275,0,0.0056,0,0.017,0
+82,"Stunning outfit, where is it from?",0,benign,synthetic,0.0045,0,0.0136,0,0.0029,0,0.0135,0,0.0055,0,0.0179,0
+83,"So proud of you, what an incredible match",0,benign,synthetic,0.0061,0,0.0077,0,0.0042,0,0.0087,0,0.004,0,0.0044,0
+84,"Congratulations on the win, you deserved it",0,benign,synthetic,0.0043,0,0.0042,0,0.0032,0,0.0049,0,0.0031,0,0.0031,0
+85,Best serve I've seen all season,0,benign,synthetic,0.0037,0,0.0047,0,0.0031,0,0.005,0,0.0032,0,0.0073,0
+86,What a try! The whole team played brilliantly,0,benign,synthetic,0.0058,0,0.0062,0,0.0022,0,0.0025,0,0.0028,0,0.0032,0
+87,"Beautiful photo, great location",0,benign,synthetic,0.0048,0,0.0059,0,0.0019,0,0.0027,0,0.0029,0,0.003,0
+88,"Your skin looks so glowing, what's your routine?",0,benign,synthetic,0.0068,0,0.011,0,0.0051,0,0.0177,0,0.0045,0,0.0073,0
+89,Happy birthday! Hope you have an amazing day,0,benign,synthetic,0.0055,0,0.0053,0,0.003,0,0.0041,0,0.0043,0,0.0048,0
+90,Can't wait to watch you at the next tournament,0,benign,synthetic,0.0039,0,0.0042,0,0.0047,0,0.0075,0,0.0033,0,0.003,0
+91,"That tackle was unreal, defence is on fire",0,benign,synthetic,0.0078,0,0.0082,0,0.0043,0,0.0087,0,0.0212,0,0.0095,0
+92,"Love this song, it's on repeat all week",0,benign,synthetic,0.0051,0,0.0091,0,0.0031,0,0.0064,0,0.0029,0,0.003,0
+93,The track conditions looked rough today but great racing,0,benign,synthetic,0.0053,0,0.0056,0,0.0029,0,0.004,0,0.0038,0,0.0038,0
+94,Who else is watching the replay again? Incredible,0,benign,synthetic,0.0036,0,0.0036,0,0.0021,0,0.0029,0,0.0024,0,0.0025,0
+95,"Gorgeous hair, did you do it yourself?",0,benign,synthetic,0.0109,0,0.0553,0,0.0054,0,0.0221,0,0.0073,0,0.0268,0
+96,"Such a fun collab, loved the video",0,benign,synthetic,0.0137,0,0.0159,0,0.0039,0,0.0051,0,0.0025,0,0.0027,0
+97,Which team are they playing next?,0,benign,synthetic,0.0034,0,0.0046,0,0.0016,0,0.002,0,0.0018,0,0.0022,0
+98,What camera do you use for these photos?,0,benign,synthetic,0.0033,0,0.005,0,0.0015,0,0.0018,0,0.0021,0,0.0026,0
+99,"Good luck this weekend, we're all cheering for you",0,benign,synthetic,0.0046,0,0.0053,0,0.0024,0,0.0034,0,0.0051,0,0.0032,0
+100,"That rally was insane, over thirty shots",0,benign,synthetic,0.3579,0,0.0259,0,0.4005,0,0.0198,0,0.2792,0,0.0122,0
+101,Great coaching decision to switch the lineup at half time,0,benign,synthetic,0.0033,0,0.0044,0,0.0025,0,0.0033,0,0.0026,0,0.0038,0
+102,This brought a huge smile to my face today,0,benign,synthetic,0.0044,0,0.0043,0,0.0023,0,0.0031,0,0.0052,0,0.0039,0
+103,"Wishing you a speedy recovery, get well soon",0,benign,synthetic,0.0042,0,0.0045,0,0.0031,0,0.0047,0,0.0031,0,0.0031,0
+104,The new training facility looks great,0,benign,synthetic,0.0042,0,0.0044,0,0.0022,0,0.0032,0,0.0026,0,0.0033,0
+105,Her backhand has improved so much this year,0,benign,synthetic,0.0037,0,0.0126,0,0.0026,0,0.0069,0,0.003,0,0.0068,0
+106,"Love the energy, keep going!",0,benign,synthetic,0.0052,0,0.005,0,0.0025,0,0.003,0,0.0031,0,0.0027,0
+107,Congrats to the whole squad on a fantastic season,0,benign,synthetic,0.0059,0,0.0055,0,0.0029,0,0.0038,0,0.0026,0,0.0026,0
+108,"This is such a vibe, perfect for summer",0,benign,synthetic,0.0054,0,0.0069,0,0.0035,0,0.0058,0,0.0027,0,0.0038,0
+109,"Amazing flexibility and strength, beautiful routine",0,benign,synthetic,0.0046,0,0.006,0,0.0025,0,0.0055,0,0.0071,0,0.0095,0
+110,Honestly the best match of the tournament,0,benign,synthetic,0.0042,0,0.0057,0,0.0025,0,0.0036,0,0.0032,0,0.0044,0
+111,"This referee is blind, worst call I've ever seen",0,toxic_not_sexist,synthetic,0.4545,0,0.0435,0,0.8776,1,0.1694,0,0.4888,0,0.0308,0
+112,"You are a terrible player, retire already",0,toxic_not_sexist,synthetic,0.137,0,0.0326,0,0.0568,0,0.0503,0,0.7802,1,0.1952,0
+113,What a bunch of idiots running this club,0,toxic_not_sexist,synthetic,0.9647,1,0.8344,1,0.9716,1,0.4477,0,0.9821,1,0.7615,1
+114,"Total garbage performance, embarrassing",0,toxic_not_sexist,synthetic,0.9355,1,0.5846,1,0.9455,1,0.1973,0,0.9474,1,0.6447,1
+115,"Shut up and let the experts talk, nobody asked you",0,toxic_not_sexist,synthetic,0.0409,0,0.0089,0,0.0728,0,0.0235,0,0.2467,0,0.0329,0
+116,"The coach should be fired immediately, useless",0,toxic_not_sexist,synthetic,0.8987,1,0.208,0,0.966,1,0.3044,0,0.9435,1,0.5322,1
+117,"Stop whining about the schedule, everyone has the same rules",0,toxic_not_sexist,synthetic,0.0425,0,0.0298,0,0.0179,0,0.0166,0,0.0265,0,0.012,0
+118,Absolute clown show of a team,0,toxic_not_sexist,synthetic,0.4652,0,0.1736,0,0.9403,1,0.3203,0,0.5861,1,0.3356,0
+119,This is the dumbest take I've seen all day,0,toxic_not_sexist,synthetic,0.9474,1,0.2683,0,0.9753,1,0.2229,0,0.9742,1,0.3958,0
+120,You're a fraud and everybody knows it,0,toxic_not_sexist,synthetic,0.4535,0,0.2263,0,0.6675,1,0.2245,0,0.8876,1,0.6566,1
