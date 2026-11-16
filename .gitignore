@@ -45,3 +45,7 @@ results_table_labeled_A.txt
 # Archived superseded label files and trial runs (real comments)
 archive/
 logs/llm_categories_*.jsonl
+
+# Explicitly included by the authors (repo is private): the final labeled evaluation set and its model scores
+!eval_labeled_A.csv
+!eval_labeled_A_scored.csv

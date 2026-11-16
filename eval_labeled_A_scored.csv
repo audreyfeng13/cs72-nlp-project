@@ -1,0 +1,292 @@
+id,pilot,text,source_account,notes,created_at,selection,p_distilbert_stage1,distilbert_stage1_pred,p_distilbert_stage2,distilbert_stage2_pred,p_bert_stage1,bert_stage1_pred,p_bert_stage2,bert_stage2_pred,p_roberta_stage1,roberta_stage1_pred,p_roberta_stage2,roberta_stage2_pred,toxic,sexist,category
+1,1,Only one job and he does It bad,australiarugby,,"8/23/2025, 8:21:03 PM",systematic,0.0269,0,0.0184,0,0.0257,0,0.0255,0,0.0804,0,0.0222,0,1,0,Personal Insult
+2,1,@2phrancey Trussttt nobody wants to know how she realllllyyyy is.,beatrizhatz-94,,"6/16/2026, 2:59:23 PM",systematic,0.0111,0,0.1681,0,0.0068,0,0.0613,0,0.0175,0,0.0408,0,0,0,Safe
+3,1,This necklace looks so tacky 🫢,arynasabalenka,,"8/27/2026, 9:03:18 AM",systematic,0.0211,0,0.13,0,0.0386,0,0.0639,0,0.0109,0,0.0201,0,1,0,Personal Insult
+4,1,That thing is no. joke.,adiapye,,"7/4/2026, 9:22:50 AM",systematic,0.0136,0,0.0095,0,0.0053,0,0.0097,0,0.0245,0,0.0235,0,0,0,Safe
+5,1,"Oh look another gorgeous women’s rugby player. What a, uhm, surprise.",adiapye,,"7/4/2026, 10:37:36 AM",random,0.0222,0,0.0527,0,0.0192,0,0.111,0,0.0358,0,0.514,1,1,1,Sexualisation/Objectification
+6,1,Oh no! A physically strong but feminine looking woman how this could be? Says the videogame journalist,ainsleycummings,,"4/20/2024, 6:00:30 PM",model_flagged,0.0776,0,0.6618,1,0.0237,0,0.5135,1,0.0437,0,0.8548,1,0,0,Safe
+7,1,That redhead in the beginning 😍,ainsleycummings,,"3/31/2024, 8:55:52 PM",model_flagged,0.1933,0,0.7588,1,0.0357,0,0.4511,0,0.0885,0,0.6652,1,0,0,Safe
+8,1,Love your fun personality and your tennis game !! Good luck in open. You look stunning !!,arynasabalenka,,"8/27/2026, 2:14:50 AM",systematic,0.0068,0,0.008,0,0.0049,0,0.0108,0,0.0058,0,0.0088,0,0,0,Safe
+9,1,Crush my skull with your thighs mama.,ainsleycummings,,"4/8/2024, 3:36:02 PM",model_flagged,0.6742,1,0.8323,1,0.7372,1,0.8726,1,0.5578,1,0.7882,1,1,1,Sexualisation/Objectification
+10,1,A commentary on woman’s sport in society. Looking at the audience can’t help noticing that apparently even other women do not watch . Do better.,ainsleycummings,,"3/30/2024, 4:45:15 AM",model_flagged,0.0142,0,0.6031,1,0.0145,0,0.797,1,0.0223,0,0.8495,1,0,1,Stereotypes/Exclusion
+11,1,Not the hair 😭,ainsleycummings,,"4/11/2024, 8:37:33 PM",random,0.0171,0,0.0909,0,0.0064,0,0.0167,0,0.0066,0,0.0378,0,0,0,Safe
+12,1,Your helmet livery is 🔥🔥🔥🔥,biancabustamante-125,,"7/6/2025, 3:40:15 AM",systematic,0.0053,0,0.0081,0,0.0043,0,0.0072,0,0.0121,0,0.026,0,0,0,Safe
+14,1,Goddess! What an outfit 🔥🔥🔥,arynasabalenka,,"8/26/2026, 8:47:07 PM",systematic,0.0233,0,0.1387,0,0.0325,0,0.2124,0,0.0626,0,0.1846,0,0,0,Safe
+15,1,Why is the boyfriend always dressed like a hick? I hope you still remember how to play tennis…😢,arynasabalenka,,"8/26/2026, 8:13:18 PM",random,0.0333,0,0.4822,0,0.0583,0,0.6167,1,0.0775,0,0.7782,1,1,1,Personal Insult
+16,1,Jesus God above.,adiapye,,"7/4/2026, 10:30:58 PM",systematic,0.0064,0,0.0069,0,0.0086,0,0.0079,0,0.0115,0,0.0128,0,0,0,Safe
+17,1,@letithappeeeennn what is yo problem tf she does both and wins more money than all of your earnings combined,arynasabalenka,,"8/28/2026, 3:59:19 AM",systematic,0.0066,0,0.0317,0,0.0035,0,0.0178,0,0.0054,0,0.0194,0,0,0,Safe
+18,1,You’re so beautiful and sexy wish you could be my wife 😘❤️,adiapye,,"7/4/2026, 8:15:34 PM",model_flagged,0.0672,0,0.8163,1,0.0263,0,0.5531,1,0.1136,0,0.8296,1,0,1,Sexualisation/Objectification
+19,1,Her other leg,beatrizhatz-94,,"6/19/2026, 8:39:26 AM",random,0.0249,0,0.1181,0,0.0519,0,0.097,0,0.0172,0,0.0488,0,0,0,Safe
+20,1,I think I'm Rugbysexual,australiarugby,,"8/22/2025, 5:19:06 PM",model_flagged,0.0751,0,0.3048,0,0.2067,0,0.3879,0,0.3751,0,0.6178,1,0,1,Sexualisation/Objectification
+21,1,Love how no ones watching,ainsleycummings,,"4/11/2024, 8:41:06 PM",random,0.0113,0,0.0104,0,0.0044,0,0.0068,0,0.0039,0,0.0039,0,1,1,Stereotypes/Exclusion
+22,1,Effortlessly so fly 🫶🏼,gabriellederaoms-233,,"5/10/2023, 8:10:36 PM",systematic,0.0084,0,0.0122,0,0.0039,0,0.0068,0,0.0167,0,0.0155,0,0,0,Safe
+23,1,Aryna needs a stylist to look slightly more sophisticated…but she can definitely sign on to star in the Real Housewives show…once she retires…Good luck for the US Open…,arynasabalenka,,"8/27/2026, 12:14:50 PM",random,0.0103,0,0.0906,0,0.0044,0,0.0574,0,0.0058,0,0.1287,0,1,0,Personal Insult
+25,1,Why is it no one watching them,ainsleycummings,,"5/4/2024, 6:02:17 AM",systematic,0.0074,0,0.0062,0,0.0035,0,0.0061,0,0.0036,0,0.0057,0,1,1,Stereotypes/Exclusion
+26,0,can't blame her for the overconfidence. Can't play scared.,arynasabalenka,,"8/26/2026, 7:19:53 PM",systematic,0.0287,0,0.0387,0,0.0248,0,0.1409,0,0.0156,0,0.0441,0,0,0,Safe
+27,0,Get you a woman you can go to the gym with,ainsleycummings,,"4/7/2024, 12:06:22 PM",model_flagged,0.1724,0,0.8229,1,0.0296,0,0.6129,1,0.0118,0,0.8544,1,0,0,Safe
+28,0,Can i play too? 😂,ainsleycummings,,"4/8/2024, 3:44:58 PM",systematic,0.0047,0,0.0055,0,0.0032,0,0.0049,0,0.0032,0,0.0043,0,0,0,Safe
+29,0,This was my favorite routine of the night! 🙌,livvydunne,,"1/3/2025, 10:03:25 PM",systematic,0.0058,0,0.0082,0,0.0028,0,0.0044,0,0.0031,0,0.0037,0,0,0,Safe
+31,0,Okay I’m suddenly following female rugby intently…,adiapye,,"7/5/2026, 3:01:15 AM",systematic,0.028,0,0.3722,0,0.0123,0,0.219,0,0.0135,0,0.7546,1,0,0,Safe
+33,0,Love ready through the thread we touched base on this lol,beatrizhatz-94,,"6/19/2026, 2:15:49 PM",systematic,0.006,0,0.0103,0,0.0032,0,0.0081,0,0.0045,0,0.003,0,0,0,Safe
+34,0,My actual Tennis fave 😍😍👑,arynasabalenka,,"9/2/2026, 4:01:29 AM",systematic,0.0078,0,0.019,0,0.0077,0,0.0187,0,0.0055,0,0.0075,0,0,0,Safe
+35,0,He is very fast and his body is strong.,livvydunne,,"1/4/2025, 1:29:53 AM",systematic,0.0098,0,0.0162,0,0.0043,0,0.0088,0,0.0054,0,0.0089,0,0,0,Safe
+37,0,That’s Russian American we have the strongest legs in the world,livvydunne,,"7/29/2025, 2:23:45 AM",systematic,0.0183,0,0.016,0,0.0183,0,0.0216,0,0.0379,0,0.0712,0,0,0,Safe
+38,0,@m_tausig flexed feet and height in the leap (looks like she had to muscle through ),livvydunne,,"4/26/2025, 9:23:48 AM",systematic,0.0096,0,0.0346,0,0.0048,0,0.039,0,0.0078,0,0.0142,0,0,0,Safe
+39,0,You can tackle me anytime.😍,adiapye,,"7/5/2026, 6:14:45 AM",random,0.0101,0,0.0217,0,0.0121,0,0.0475,0,0.0231,0,0.0275,0,0,0,Safe
+40,0,Livvy was a team player last year who when called upon delivered!! This season I see her in a much bigger role. She looks fantastic as always!! I will always back Livvy Dunn because she puts in the work!! 👏👏❤️❤️,livvydunne,,"1/10/2025, 12:37:11 AM",systematic,0.0035,0,0.0063,0,0.0023,0,0.007,0,0.0034,0,0.0048,0,0,0,Safe
+41,0,What is that in Nfl terms?Score smth,livvydunne,,"1/4/2025, 12:30:55 AM",systematic,0.0034,0,0.0043,0,0.0037,0,0.0062,0,0.0026,0,0.005,0,0,0,Safe
+42,0,Am I the only one who thinks the first girl is sexy af,ainsleycummings,,"4/1/2024, 9:04:44 AM",model_flagged,0.0611,0,0.6576,1,0.0448,0,0.7401,1,0.1673,0,0.8704,1,1,1,Sexualisation/Objectification
+43,0,Typical. Women doing it while everyone looks the other way.,ainsleycummings,,"3/27/2024, 5:13:23 AM",model_flagged,0.0186,0,0.5507,1,0.0064,0,0.6945,1,0.0127,0,0.8845,1,0,0,Safe
+44,0,@karenajojo she has always competed,livvydunne,,"1/4/2025, 11:07:08 AM",random,0.0054,0,0.0256,0,0.0031,0,0.0092,0,0.0038,0,0.0076,0,0,0,Safe
+45,0,Such a cutie 🥰 sexy in every way 💯🎯👑❤️🐝🔥🔥🔥🔥,adiapye,,"7/15/2026, 4:03:54 PM",model_flagged,0.2016,0,0.7841,1,0.1103,0,0.6141,1,0.084,0,0.1869,0,1,1,Sexualisation/Objectification
+46,0,@gcreative2000 wtf? They are women... 🙄,ainsleycummings,,"4/22/2024, 1:40:09 AM",model_flagged,0.0539,0,0.7643,1,0.0276,0,0.5305,1,0.3795,0,0.8458,1,0,0,Safe
+47,0,The perfect dress for you! Now mind and heart set on the Us Open,arynasabalenka,,"8/27/2026, 3:07:32 AM",systematic,0.0113,0,0.0464,0,0.0038,0,0.0143,0,0.0047,0,0.0718,0,0,0,Safe
+48,0,The Tiger!!! My Muse!!! ❤️😽🌹🔥🇧🇷,arynasabalenka,,"8/26/2026, 8:04:26 PM",systematic,0.0159,0,0.0151,0,0.0122,0,0.0193,0,0.0257,0,0.0477,0,0,0,Safe
+49,0,The first one's thighs 😩😩✨✨✨✨,ainsleycummings,,"4/3/2024, 6:48:50 PM",model_flagged,0.0461,0,0.6799,1,0.0694,0,0.7065,1,0.1048,0,0.8378,1,1,1,Sexualisation/Objectification
+50,0,Dream. Goals. Perfection!!!,arynasabalenka,,"8/26/2026, 10:00:46 PM",systematic,0.0045,0,0.0051,0,0.0027,0,0.0042,0,0.0088,0,0.0107,0,0,0,Safe
+51,0,No shape what so ever.,arynasabalenka,,"8/27/2026, 12:09:21 PM",systematic,0.0056,0,0.007,0,0.0028,0,0.0052,0,0.0061,0,0.0084,0,0,0,Safe
+52,0,🫶 Quick recovery ❤️‍🩹 and healing much love,gabriellederaoms-233,,"5/10/2023, 2:27:16 AM",systematic,0.0058,0,0.0086,0,0.0027,0,0.0045,0,0.0046,0,0.0034,0,0,0,Safe
+53,0,🥹🥹🥹 that smile tho! 🤩,gabriellederaoms-233,,"5/9/2023, 5:53:16 PM",systematic,0.0074,0,0.0089,0,0.0033,0,0.0052,0,0.0098,0,0.0078,0,0,0,Safe
+54,0,A woman should not be like that,ainsleycummings,,"5/13/2024, 6:02:31 AM",model_flagged,0.0743,0,0.8297,1,0.0876,0,0.9133,1,0.2219,0,0.9112,1,1,1,Stereotypes/Exclusion
+55,0,Aw so cute 🩷♥️♥️🩷🩷♥️♥️♥️🩷🩷,annafrey,,"10/27/2026, 4:58:54 PM",random,0.0096,0,0.0218,0,0.0057,0,0.0104,0,0.0113,0,0.0094,0,0,0,Safe
+56,0,Win Baby just Win 🏆,biancabustamante-125,,"7/4/2025, 5:57:38 PM",systematic,0.0099,0,0.0212,0,0.0079,0,0.0147,0,0.024,0,0.0325,0,0,0,Safe
+57,0,Need on of them to father my child. Future king of earth,ainsleycummings,,"4/26/2024, 5:12:37 AM",systematic,0.0193,0,0.037,0,0.0115,0,0.0356,0,0.0499,0,0.0512,0,1,1,Sexualisation/Objectification
+58,0,Omg... I love women,ainsleycummings,,"4/13/2024, 6:22:26 AM",model_flagged,0.0377,0,0.6799,1,0.0396,0,0.7072,1,0.0768,0,0.8258,1,0,0,Safe
+59,0,Which brand are those shorts? Need a few,australiarugby,,"8/23/2025, 11:23:41 AM",systematic,0.0061,0,0.0251,0,0.0047,0,0.028,0,0.0021,0,0.0069,0,0,0,Safe
+60,0,When are we getting the video for stretching 😭,gabriellederaoms-233,,"2/8/2025, 4:51:59 PM",systematic,0.0059,0,0.0101,0,0.0031,0,0.0073,0,0.0031,0,0.0046,0,0,0,Safe
+61,0,Trump loves you,annafrey,,"10/13/2026, 5:36:29 PM",systematic,0.0159,0,0.018,0,0.0258,0,0.026,0,0.0089,0,0.0141,0,0,0,Safe
+62,0,Wait🤕🥺 are all female Muay Thai fighter this beautiful🥲 or is she just the only beauty who's a beast🔥,gabriellederaoms-233,,"1/11/2024, 6:19:12 AM",model_flagged,0.079,0,0.4105,0,0.1023,0,0.8098,1,0.3199,0,0.7108,1,0,0,Safe
+63,0,"Woow , you truly amazing 😍",gabriellederaoms-233,,"10/6/2023, 4:45:39 PM",random,0.0066,0,0.0071,0,0.0086,0,0.0111,0,0.0169,0,0.0063,0,0,0,Safe
+64,0,The blonde girl chasing her chose the wrong sport 😂😂,ainsleycummings,,"5/2/2024, 4:14:08 PM",model_flagged,0.1474,0,0.7447,1,0.0151,0,0.4813,0,0.0733,0,0.8061,1,0,0,Safe
+65,0,You'd think they'd have on compression shorts underneath their shorts like every other pro female sports team,australiarugby,,"8/23/2025, 2:59:00 PM",systematic,0.013,0,0.2821,0,0.0213,0,0.5375,1,0.0178,0,0.8643,1,1,0,Sexualisation/Objectification
+68,0,Something bigger happening on the other side ig 😇,ainsleycummings,,"4/20/2024, 1:49:47 AM",systematic,0.0044,0,0.0044,0,0.0037,0,0.0054,0,0.0069,0,0.0072,0,1,0,Personal Insult
+70,0,Fly Bia fly 🧡🔥,biancabustamante-125,,"7/4/2025, 10:26:33 AM",systematic,0.0096,0,0.0196,0,0.0086,0,0.0205,0,0.0247,0,0.0247,0,0,0,Safe
+72,0,You learn more from defeat and hopefully use to your advantage,gabriellederaoms-233,,"5/10/2023, 8:25:34 AM",systematic,0.0047,0,0.0072,0,0.0033,0,0.0073,0,0.0028,0,0.0036,0,0,0,Safe
+74,0,all it takes is determination ( and millionaire parents***) 😭,biancabustamante-125,,"7/4/2025, 6:05:43 PM",random,0.0113,0,0.2807,0,0.0043,0,0.0325,0,0.1748,0,0.1179,0,1,0,Personal Insult
+75,0,"There's such a mix of sweet, and badass in this photo",gabriellederaoms-233,,"5/10/2023, 12:04:53 AM",systematic,0.2141,0,0.1282,0,0.0819,0,0.0413,0,0.2333,0,0.0233,0,0,0,Safe
+76,0,I like these colours a lot,adiapye,,"7/3/2026, 8:21:14 PM",systematic,0.0085,0,0.0117,0,0.0066,0,0.0084,0,0.0024,0,0.0025,0,0,0,Safe
+77,0,@gcreative2000 Bro never saw a woman.,ainsleycummings,,"4/2/2024, 12:48:36 PM",model_flagged,0.0217,0,0.7312,1,0.0086,0,0.435,0,0.0284,0,0.8492,1,0,0,Safe
+78,0,@stephjemm Maturity school? Cause she dont have NONE of that🤡,beatrizhatz-94,,"6/16/2026, 1:47:15 PM",systematic,0.0067,0,0.0808,0,0.0046,0,0.0346,0,0.0158,0,0.3337,0,0,0,Safe
+79,0,You got this!💪🇵🇭,biancabustamante-125,,"7/4/2025, 10:33:35 AM",random,0.0084,0,0.0073,0,0.0038,0,0.0049,0,0.0128,0,0.006,0,0,0,Safe
+80,0,"The only thing she had going for herself is her disability and making ppl feel some try of way or almost proud because she’s made it. She don’t make it, she made lots of horrible comments about others and shared nothing but hate. Stop trying to get all the attention just cause of your condition. There’s others out there who go through worst and they don’t use it to their advantage!",beatrizhatz-94,,"6/25/2026, 4:02:46 AM",random,0.0209,0,0.0205,0,0.0145,0,0.0299,0,0.0259,0,0.016,0,1,0,Stereotypes/Exclusion
+82,0,Shine bright like a diamondddd 💎💎💎😮‍💨😮‍💨😮‍💨,arynasabalenka,,"8/26/2026, 7:22:26 PM",random,0.0114,0,0.0156,0,0.0097,0,0.0127,0,0.0218,0,0.0196,0,0,0,Safe
+83,0,"@wimapami @materialgood has her in about $110,000 worth of jewelry, totaling around 127 carats. You’re to beautiful and kind of a woman to comment things like this :) be happy for women :) we gotta stick together!",arynasabalenka,,"8/30/2026, 8:17:56 AM",model_flagged,0.0102,0,0.6372,1,0.0076,0,0.5132,1,0.0236,0,0.4426,0,0,0,Safe
+84,0,You are very sexy women 🔥🔥,arynasabalenka,,"8/27/2026, 4:24:19 AM",model_flagged,0.2265,0,0.8276,1,0.1013,0,0.9333,1,0.4106,0,0.8995,1,0,1,Sexualisation/Objectification
+85,0,You are so eloquent in your moves. It's totally awesome. ❤️,livvydunne,,"4/2/2025, 3:05:37 PM",random,0.0088,0,0.0116,0,0.0038,0,0.0064,0,0.009,0,0.0054,0,0,0,Safe
+86,0,"@kristysportraits preach!!! I get so annoyed at people minimizing her. She’s an incredible athlete. Sure, she’s not the best in the country. But she is more athletic than 99.999% of the population, and that’s not handed to anyone!",livvydunne,,"1/4/2025, 2:45:17 PM",systematic,0.0155,0,0.0187,0,0.0124,0,0.0369,0,0.0176,0,0.0309,0,0,0,Safe
+87,0,Stunning you definitely are one beautiful woman loving this ❤❤❤❤❤❤❤,gabriellederaoms-233,,"5/14/2024, 1:04:04 PM",systematic,0.0284,0,0.1875,0,0.0101,0,0.0296,0,0.036,0,0.0137,0,0,0,Safe
+88,0,Bueatiful look about her ..,australiarugby,,"8/23/2025, 6:51:55 AM",systematic,0.021,0,0.2416,0,0.0067,0,0.1252,0,0.0154,0,0.039,0,0,0,Safe
+89,0,Semi Truck couldn't pull me out,adiapye,,"7/16/2026, 12:56:33 PM",systematic,0.009,0,0.0115,0,0.0057,0,0.0086,0,0.007,0,0.0144,0,1,1,Sexualisation/Objectification
+90,0,Tackle me every time what you want,adiapye,,"7/6/2026, 3:00:13 AM",random,0.0501,0,0.0745,0,0.0288,0,0.1116,0,0.0547,0,0.0767,0,0,0,Safe
+91,0,"Do you regularly consume alcohol? If so, how does your alcohol consumption correlate with your training volume, recovery kinetics?",adiapye,,"7/4/2026, 6:14:13 PM",systematic,0.0034,0,0.0088,0,0.0017,0,0.0068,0,0.0022,0,0.004,0,0,0,Safe
+92,0,Artwork ! The hits with the music was magically magnifying 🔍,livvydunne,,"1/4/2025, 7:52:50 PM",random,0.0061,0,0.007,0,0.0039,0,0.0052,0,0.0058,0,0.0059,0,0,0,Safe
+93,0,"You are very beautiful, very lovely, your face is very lovely, beautiful face, my heart became happy seeing you, my angel, lovely, beautiful🩷🤍🩵💛💛🩵🤍🩷",adiapye,,"7/5/2026, 12:21:12 AM",random,0.0083,0,0.0113,0,0.0061,0,0.0112,0,0.0127,0,0.0064,0,0,0,Safe
+94,0,Play me in a tennis match 🎾 @annafrey0,annafrey,,"10/13/2026, 11:10:16 AM",random,0.0101,0,0.0201,0,0.0075,0,0.0163,0,0.0096,0,0.0369,0,0,0,Safe
+95,0,My type of women.,ainsleycummings,,"5/4/2024, 9:40:40 PM",model_flagged,0.0701,0,0.7813,1,0.0271,0,0.7828,1,0.02,0,0.8838,1,0,0,Safe
+96,0,@lay.layy143 first off who was talking to you? Second duh ofc i wish i was more like her ffs,beatrizhatz-94,,"6/16/2026, 11:56:44 PM",systematic,0.0087,0,0.038,0,0.0089,0,0.0452,0,0.0073,0,0.0113,0,0,0,Safe
+97,0,I know that 🐈G👀d,adiapye,,"7/4/2026, 7:54:52 AM",random,0.0049,0,0.0058,0,0.0031,0,0.0047,0,0.0077,0,0.007,0,1,1,Sexualisation/Objectification
+98,0,"Damn them thighs ain't saving lives, they saving whole planets🗣🔥🔥🔥",ainsleycummings,,"4/21/2024, 3:19:03 PM",model_flagged,0.8804,1,0.5264,1,0.777,1,0.4317,0,0.8239,1,0.5503,1,1,1,Sexualisation/Objectification
+99,0,"Start play tennis, much better!",arynasabalenka,,"8/27/2026, 4:53:33 PM",random,0.0049,0,0.0066,0,0.0043,0,0.0078,0,0.0055,0,0.0138,0,0,0,Safe
+100,0,You are the perfect blend of a luminous ephemeral consistency that has no end. 💐😍,adiapye,,"7/5/2026, 5:01:07 PM",systematic,0.0057,0,0.0122,0,0.016,0,0.0407,0,0.0046,0,0.0045,0,0,0,Safe
+101,0,"@kd._.1234 women watched it and attended as well as males. The comment is that women would ""rather watch reality tv"" which is simply and unequivocally false.",ainsleycummings,,"4/1/2024, 8:46:48 AM",systematic,0.0386,0,0.7406,1,0.0112,0,0.6557,1,0.0227,0,0.7963,1,0,0,Safe
+102,0,That fiest girl can have me whenever she wants 0.0,ainsleycummings,,"4/8/2024, 9:02:35 AM",model_flagged,0.059,0,0.7097,1,0.0156,0,0.5627,1,0.0551,0,0.3184,0,0,0,Safe
+103,0,please come back 💔💔💔💔💔,beatrizhatz-94,,"6/13/2026, 2:31:47 AM",systematic,0.009,0,0.0113,0,0.0043,0,0.0064,0,0.0163,0,0.0087,0,0,0,Safe
+104,0,Like I said who said I was hating if your mad about facts just say buddy,ainsleycummings,,"3/31/2024, 2:21:11 PM",systematic,0.083,0,0.0222,0,0.0442,0,0.0339,0,0.0624,0,0.0207,0,0,0,Safe
+105,0,Does anyone know what this routine scored?,livvydunne,,"3/31/2025, 1:10:00 AM",systematic,0.0029,0,0.0037,0,0.0016,0,0.0017,0,0.0021,0,0.0028,0,0,0,Safe
+107,0,I am not their target audience,australiarugby,,"8/23/2025, 2:01:01 AM",systematic,0.0052,0,0.0052,0,0.0035,0,0.0063,0,0.0023,0,0.0037,0,0,0,Safe
+108,0,Point is your still able to smile in the end 🤙🏾💯,gabriellederaoms-233,,"5/10/2023, 12:12:35 AM",random,0.0048,0,0.0057,0,0.0034,0,0.0065,0,0.0062,0,0.0047,0,0,0,Safe
+109,0,"The dead are not dead! They are alive! In the name of Jesus, they are alive! Still living!",gabriellederaoms-233,,"5/10/2023, 6:36:00 AM",systematic,0.0795,0,0.0172,0,0.0369,0,0.0137,0,0.0293,0,0.0092,0,0,0,Safe
+110,0,You are the cutest!!,arynasabalenka,,"8/26/2026, 11:43:46 PM",random,0.066,0,0.0342,0,0.0107,0,0.0197,0,0.0239,0,0.0148,0,0,0,Safe
+111,0,Can we practice some tennis? Im a lefty btw,annafrey,,"10/13/2026, 9:57:01 AM",systematic,0.0085,0,0.0137,0,0.0141,0,0.0371,0,0.006,0,0.0126,0,0,0,Safe
+112,0,Ahhhh so this is why men want to play in women’s sports,australiarugby,,"8/23/2025, 10:14:21 PM",model_flagged,0.0123,0,0.1222,0,0.0063,0,0.401,0,0.0172,0,0.8612,1,0,0,Safe
+114,0,Damn how you still sexy,gabriellederaoms-233,,"10/7/2023, 8:56:19 PM",systematic,0.9024,1,0.7138,1,0.7603,1,0.5433,1,0.8742,1,0.8165,1,1,1,Sexualisation/Objectification
+115,0,Cant do that stuff if u had a big shalong,australiarugby,,"8/23/2025, 1:38:14 PM",random,0.0154,0,0.0352,0,0.0111,0,0.0188,0,0.0553,0,0.0468,0,0,0,Safe
+116,0,Welcome in Hungary!,biancabustamante-125,,"7/4/2025, 12:06:13 PM",systematic,0.0053,0,0.0053,0,0.0035,0,0.0051,0,0.003,0,0.0047,0,0,0,Safe
+117,0,the position you end up with these few races u might gotta actually think about what if it doesn't work out lmao,biancabustamante-125,,"7/9/2025, 11:30:41 PM",systematic,0.0044,0,0.0047,0,0.0021,0,0.0042,0,0.0051,0,0.0042,0,1,0,Personal Insult
+118,0,those judges were mean 😤,livvydunne,,"1/5/2025, 4:59:03 PM",random,0.0095,0,0.0147,0,0.0046,0,0.0101,0,0.2849,0,0.1071,0,0,0,Safe
+120,0,u know my cousin davis u shud add me,annafrey,,"10/13/2026, 11:02:34 AM",systematic,0.0106,0,0.0155,0,0.0082,0,0.0206,0,0.0134,0,0.0087,0,0,0,Safe
+121,0,She plenty cute,gabriellederaoms-233,,"5/9/2023, 7:20:14 PM",systematic,0.0169,0,0.0681,0,0.0122,0,0.0799,0,0.0134,0,0.0247,0,0,0,Safe
+122,0,“He’s just a work friend”,australiarugby,,"8/23/2025, 11:40:36 PM",random,0.0261,0,0.0521,0,0.0059,0,0.0106,0,0.0028,0,0.0041,0,0,0,Safe
+123,0,Awesome! Way to go girl!,livvydunne,,"1/4/2025, 8:23:36 PM",random,0.0139,0,0.0186,0,0.0047,0,0.0144,0,0.0112,0,0.0139,0,0,0,Safe
+124,0,New fav sport to watch,australiarugby,,"8/23/2025, 6:12:47 PM",systematic,0.0045,0,0.0052,0,0.0039,0,0.0075,0,0.0032,0,0.0038,0,0,0,Safe
+125,0,@reda__mma thick thighs saves lives.,ainsleycummings,,"4/4/2024, 2:06:19 AM",model_flagged,0.0405,0,0.4365,0,0.0326,0,0.4308,0,0.0941,0,0.5827,1,1,1,Sexualisation/Objectification
+127,0,Can’t find sexier than this 😂,adiapye,,"7/4/2026, 7:16:43 PM",random,0.1173,0,0.7089,1,0.0563,0,0.2756,0,0.056,0,0.0835,0,1,1,Sexualisation/Objectification
+131,0,"Oh so it’s not just men in rugby, but also women that are fine ass hell.
+Got it ✔️",ainsleycummings,,"4/13/2024, 1:12:34 PM",model_flagged,0.9108,1,0.3761,0,0.9546,1,0.5699,1,0.7696,1,0.5179,1,0,0,Safe
+132,0,@mohsenologi they’re playing for themselves not for other people to watch bozo 😂,ainsleycummings,,"4/7/2024, 9:41:46 PM",systematic,0.0073,0,0.01,0,0.0047,0,0.0123,0,0.0074,0,0.0119,0,0,0,Safe
+133,0,"@ykrasny yes if she crashes that’s what she does every two races, they are wasting time and money on her",biancabustamante-125,,"7/7/2025, 4:02:42 PM",random,0.014,0,0.0491,0,0.0056,0,0.0425,0,0.0058,0,0.009,0,1,0,Personal Insult
+134,0,Love this young lady so good at her craft,livvydunne,,"1/9/2025, 2:53:10 PM",random,0.0084,0,0.0141,0,0.0042,0,0.0065,0,0.0075,0,0.0071,0,0,0,Safe
+135,0,Omg! 🔥 now bring all of this fire into to courts and to lift your third trophy girl.,arynasabalenka,,"8/26/2026, 7:41:16 PM",model_flagged,0.0268,0,0.529,1,0.014,0,0.9418,1,0.0502,0,0.9004,1,0,0,Safe
+136,0,Hopefully injury-free this year!,livvydunne,,"1/4/2025, 5:32:25 AM",systematic,0.0029,0,0.0038,0,0.0015,0,0.0017,0,0.0028,0,0.0033,0,0,0,Safe
+137,0,Guess you never watch rugby games.,australiarugby,,"8/23/2025, 4:41:52 PM",random,0.0074,0,0.011,0,0.0044,0,0.0097,0,0.0083,0,0.0099,0,0,0,Safe
+138,0,Those thighs can easily crush my skull 💀☠️,ainsleycummings,,"4/2/2024, 9:42:19 AM",model_flagged,0.2841,0,0.7634,1,0.3535,0,0.5764,1,0.4397,0,0.5794,1,1,1,Sexualisation/Objectification
+139,0,I am a fan. Frey for Wimbledon in 2012.,annafrey,,"10/13/2026, 4:41:05 PM",random,0.0052,0,0.0083,0,0.0047,0,0.0091,0,0.0027,0,0.0033,0,0,0,Safe
+140,0,They are perfect,ainsleycummings,,"3/29/2024, 6:37:42 PM",systematic,0.0054,0,0.0065,0,0.0041,0,0.0056,0,0.0053,0,0.007,0,0,0,Safe
+141,0,"The problem is women don’t even watch their own gender’s sports. They’re more interested in the men’s. Just a handful of women turn up to watch my local club’s female team, but loads turn up to the men’s games. Until that changes women’s sports is going to have a hard time.",ainsleycummings,representational harm?,"5/2/2024, 4:31:45 AM",model_flagged,0.0108,0,0.3449,0,0.0084,0,0.3865,0,0.0085,0,0.6137,1,0,0,Safe
+142,0,@annafrey0 if Anna Frey likes this I will literally walk to the next regionals from Austin Texas,annafrey,,"10/13/2026, 9:32:13 AM",random,0.0053,0,0.0057,0,0.0029,0,0.0056,0,0.0035,0,0.0041,0,0,0,Safe
+144,0,Why are all the peopl looking on the other side,ainsleycummings,,"4/19/2024, 3:30:16 AM",random,0.0104,0,0.0165,0,0.0057,0,0.01,0,0.0218,0,0.054,0,0,0,Safe
+145,0,I deserve a follow for being this early,annafrey,,"10/13/2026, 9:42:57 AM",systematic,0.0049,0,0.0053,0,0.0037,0,0.0061,0,0.0027,0,0.0032,0,0,0,Safe
+146,0,Are you at Silverstone?,biancabustamante-125,,"7/4/2025, 5:03:26 PM",random,0.0036,0,0.0043,0,0.0033,0,0.0059,0,0.002,0,0.0026,0,0,0,Safe
+149,0,I happy you drive gb3. I hope see you the paddock 😍,biancabustamante-125,,"7/4/2025, 1:31:25 PM",systematic,0.0047,0,0.0092,0,0.0033,0,0.0065,0,0.0039,0,0.0072,0,0,0,Safe
+150,0,"Those who do two steps and get tachycardia: men's rugby is better. Oh how horrible, I faint.
+Those of us who practice a sport and lead an active life: wooow, I want one girlfriend like that 😍😍😍",ainsleycummings,,"4/7/2024, 9:26:49 PM",model_flagged,0.0632,0,0.4605,0,0.0785,0,0.5688,1,0.0765,0,0.4226,0,0,1,Sexualisation/Objectification
+151,0,Love the table tennis idea!! You look amazing !! And all the best at the Open!! Loved that you wore my brand to sleep in of your own choosing!🖤🎾🔥,arynasabalenka,,"8/27/2026, 10:26:10 AM",random,0.0064,0,0.0123,0,0.0042,0,0.0135,0,0.0064,0,0.0082,0,0,0,Safe
+153,0,She is real beauty with beast in her spirit 🔥,gabriellederaoms-233,,"5/10/2023, 10:27:50 AM",random,0.0326,0,0.0552,0,0.032,0,0.0761,0,0.1272,0,0.0781,0,0,0,Safe
+155,0,😍1st chic was my dream wifey,ainsleycummings,,"4/13/2024, 10:48:42 PM",model_flagged,0.0078,0,0.5151,1,0.0101,0,0.4924,0,0.03,0,0.9011,1,0,0,Safe
+156,0,What fabric are these rugby shorts?,australiarugby,,"10/18/2025, 10:54:29 AM",systematic,0.0066,0,0.0266,0,0.0045,0,0.0257,0,0.0027,0,0.0078,0,0,0,Safe
+157,0,No music? I comeon now,livvydunne,,"1/4/2025, 7:00:35 AM",random,0.0056,0,0.0064,0,0.0035,0,0.0067,0,0.017,0,0.0139,0,0,0,Safe
+158,0,Bro that first girl... if she sits on your face it'll be over for you,ainsleycummings,,"4/8/2024, 9:45:57 AM",model_flagged,0.0219,0,0.2378,0,0.0732,0,0.77,1,0.0563,0,0.7696,1,1,1,Sexualisation/Objectification
+160,0,We want the men x,australiarugby,,"8/23/2025, 1:08:29 PM",random,0.0197,0,0.0345,0,0.0103,0,0.0177,0,0.0369,0,0.0861,0,1,1,Stereotypes/Exclusion
+161,0,"I’m asking you to take a moment to look at this family’s story and the home they are trying to rebuild. If you’re able to donate, any help bring them closer to have a safe home again. If you can’t, sharing the campaign could help us reach someone who can: https://gofund.me/3a16a4777",arynasabalenka,,"8/27/2026, 6:19:48 AM",random,0.0027,0,0.0034,0,0.0025,0,0.004,0,0.0019,0,0.0023,0,0,0,Safe
+162,0,Atomic wedgie time! No. That's pretty impressive!,australiarugby,,"8/22/2025, 1:23:14 PM",systematic,0.0039,0,0.006,0,0.0045,0,0.1206,0,0.0067,0,0.0944,0,0,0,Safe
+163,0,They just like giving each other wedgies,australiarugby,,"8/23/2025, 9:52:23 PM",model_flagged,0.0159,0,0.4187,0,0.0295,0,0.8617,1,0.0114,0,0.0417,0,0,0,Safe
+164,0,How tall are you??😂,biancabustamante-125,,"7/4/2025, 10:31:54 AM",systematic,0.0053,0,0.0091,0,0.0079,0,0.0351,0,0.0112,0,0.0233,0,0,0,Safe
+165,0,i Love you your a dream woman,arynasabalenka,,"9/7/2026, 12:22:02 PM",random,0.0341,0,0.1464,0,0.0194,0,0.1545,0,0.0521,0,0.0765,0,0,0,Safe
+168,0,I think I’m in love…,adiapye,,"7/3/2026, 8:42:55 PM",random,0.0365,0,0.18,0,0.0128,0,0.0267,0,0.0034,0,0.0078,0,0,0,Safe
+169,0,Best she’s ever looked at a tiger 😍 she’s killing 5th year!,livvydunne,,"1/3/2025, 11:08:28 PM",systematic,0.1469,0,0.2378,0,0.3595,0,0.1795,0,0.278,0,0.055,0,0,0,Safe
+170,0,Proud of you Livy You look great 🔥❤️👏,livvydunne,,"1/4/2025, 7:11:22 PM",systematic,0.0086,0,0.0129,0,0.0037,0,0.0064,0,0.0113,0,0.0178,0,0,0,Safe
+171,0,"Adia pye, my friend, my lover, my girlfriend, boyfriend, husband and wife, my beginning, my end and everything in between. the reason i breathe, the reason i live. 😍😍😍😍😍😍",adiapye,,"7/3/2026, 10:38:36 PM",systematic,0.0127,0,0.4357,0,0.0066,0,0.1248,0,0.0115,0,0.2085,0,0,0,Safe
+172,0,The answer is: YES.,australiarugby,,"8/23/2025, 10:11:07 PM",systematic,0.003,0,0.0037,0,0.0017,0,0.0032,0,0.0032,0,0.0064,0,0,0,Safe
+173,0,You rock the slopes 👏👏👏👏👏👏👏,biancabustamante-125,,"7/26/2025, 9:32:29 PM",systematic,0.0124,0,0.021,0,0.0079,0,0.016,0,0.0204,0,0.0103,0,0,0,Safe
+174,0,INCREDIBLE FIGHT OUIIIIIIIIIIIII!!!!!!!!!!!!!🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥,gabriellederaoms-233,,"5/10/2023, 3:01:51 PM",random,0.0102,0,0.0111,0,0.0047,0,0.0063,0,0.0499,0,0.0451,0,0,0,Safe
+176,0,A true warrior you are.,gabriellederaoms-233,,"5/9/2023, 6:21:36 PM",systematic,0.0172,0,0.0195,0,0.0087,0,0.0183,0,0.0366,0,0.0159,0,0,0,Safe
+178,0,not fair she literally has a spring,beatrizhatz-94,,"6/15/2026, 5:11:37 PM",systematic,0.0106,0,0.0654,0,0.0076,0,0.0243,0,0.0069,0,0.0171,0,1,0,Stereotypes/Exclusion
+179,0,You looks so beautiful,adiapye,,"7/5/2026, 2:45:12 AM",random,0.0111,0,0.0147,0,0.0057,0,0.0108,0,0.0108,0,0.0132,0,0,0,Safe
+180,0,the jewelry set is too big. The whole look is hideously tacky. Not elegant😬😬,arynasabalenka,,"8/27/2026, 1:17:58 AM",systematic,0.0257,0,0.0326,0,0.0456,0,0.0345,0,0.016,0,0.0204,0,1,0,Personal Insult
+181,0,Are you influencer or athlete ?,arynasabalenka,,"8/26/2026, 7:24:35 PM",systematic,0.0036,0,0.0062,0,0.003,0,0.0076,0,0.0029,0,0.0074,0,1,1,Stereotypes/Exclusion
+182,0,Most feminine rugby player,ainsleycummings,toxic with context,"4/10/2024, 12:54:30 AM",model_flagged,0.0426,0,0.7121,1,0.057,0,0.7916,1,0.0987,0,0.8428,1,0,1,Stereotypes/Exclusion
+184,0,Bia doesn’t care about nothing you guys saying. She’s focus on enjoying her life and whatever it brings.,biancabustamante-125,,"8/3/2025, 9:00:42 AM",random,0.0068,0,0.0189,0,0.0029,0,0.012,0,0.0052,0,0.0321,0,0,0,Safe
+187,0,"@marjorye_camili that's not the only reason people play, but it's so disappointing to see so many people watching the men and nobody watching the women. It just demonstrates the sexism within the sport still.",ainsleycummings,,"5/1/2024, 4:27:56 PM",model_flagged,0.0389,0,0.5145,1,0.052,0,0.4609,0,0.0318,0,0.6671,1,0,0,Safe
+188,0,The dad is probably very proud,annafrey,,"10/14/2026, 1:55:20 AM",systematic,0.005,0,0.0056,0,0.0029,0,0.0046,0,0.0042,0,0.0161,0,0,0,Safe
+189,0,"I'm hungry, bia. Let's go 🙌🔥",biancabustamante-125,,"7/4/2025, 10:51:37 AM",random,0.0168,0,0.0174,0,0.0062,0,0.0106,0,0.0219,0,0.0165,0,0,0,Safe
+190,0,Brick by brick,adiapye,,"7/4/2026, 11:29:13 AM",systematic,0.0073,0,0.011,0,0.0191,0,0.022,0,0.0076,0,0.0079,0,0,0,Safe
+191,0,"Pay driver, what 'worked out' 😂 failed at F1 Academy and more interested in how she looks than driving 😂",biancabustamante-125,,"7/8/2025, 2:09:57 PM",systematic,0.0047,0,0.0147,0,0.0044,0,0.0561,0,0.0066,0,0.0592,0,1,0,Personal Insult
+192,0,@ryker_arts I know damn brother her thighs are deadly,ainsleycummings,,"4/5/2024, 1:51:40 PM",model_flagged,0.9056,1,0.8401,1,0.95,1,0.9272,1,0.8396,1,0.7983,1,1,1,Sexualisation/Objectification
+194,0,Just because you call something a “trend” doesn’t make it a trend 🤡,annafrey,,"10/13/2026, 1:50:01 PM",random,0.0094,0,0.0192,0,0.0031,0,0.0073,0,0.0031,0,0.0036,0,0,0,Safe
+195,0,You’re a warrior 🔥🔥🔥🔥,gabriellederaoms-233,,"12/25/2023, 1:51:57 PM",systematic,0.0527,0,0.0816,0,0.0199,0,0.0474,0,0.1252,0,0.0397,0,0,0,Safe
+198,0,rugby is fun yall should watch some,australiarugby,,"8/23/2025, 4:15:14 PM",systematic,0.0119,0,0.0109,0,0.0055,0,0.0086,0,0.0102,0,0.014,0,0,0,Safe
+199,0,Not only very talented but beautiful as well🥊🥊🥊🥊🥊,gabriellederaoms-233,,"5/10/2023, 8:17:50 AM",random,0.0066,0,0.009,0,0.0051,0,0.0101,0,0.0104,0,0.0144,0,0,0,Safe
+200,0,Yes.. we are watching for strength,australiarugby,,"8/23/2025, 12:08:59 PM",random,0.0042,0,0.0054,0,0.002,0,0.0032,0,0.0024,0,0.0026,0,0,0,Safe
+201,0,I came here for the redhead.,ainsleycummings,,"4/10/2024, 6:13:17 AM",model_flagged,0.3943,0,0.5467,1,0.0412,0,0.4932,0,0.0591,0,0.6186,1,0,0,Safe
+202,0,It’s always aus,australiarugby,,"8/23/2025, 4:44:58 AM",random,0.006,0,0.0103,0,0.0051,0,0.008,0,0.0055,0,0.0112,0,0,0,Safe
+204,0,PAUSE! How old are they? Look a bit young,ainsleycummings,,"5/10/2024, 12:03:06 AM",systematic,0.0096,0,0.0089,0,0.0058,0,0.0123,0,0.0061,0,0.04,0,0,0,Safe
+205,0,I love women,ainsleycummings,,"4/20/2024, 1:16:52 AM",model_flagged,0.0451,0,0.4983,0,0.059,0,0.7079,1,0.0572,0,0.8542,1,0,0,Safe
+206,0,That redhead at the start ❤️❤️❤️,ainsleycummings,,"3/30/2024, 10:00:06 AM",model_flagged,0.228,0,0.7628,1,0.0589,0,0.561,1,0.0294,0,0.2217,0,0,0,Safe
+209,0,When are the tryouts for that position,australiarugby,,"8/23/2025, 2:22:34 PM",systematic,0.0033,0,0.0045,0,0.0016,0,0.0021,0,0.0021,0,0.0032,0,0,0,Safe
+210,0,Next Miss Brasil 🔥👑😍,arynasabalenka,,"9/7/2026, 9:05:10 PM",systematic,0.0144,0,0.0561,0,0.0075,0,0.0369,0,0.0092,0,0.0362,0,0,0,Safe
+211,0,Them: “Why do you like Rugby players?” Me: “This is why!” 😍😍,adiapye,,"7/8/2026, 10:40:42 AM",systematic,0.0143,0,0.0244,0,0.0096,0,0.0236,0,0.0034,0,0.0068,0,0,0,Safe
+212,0,"I don't know what your name means, but after seeing you, I'm pretty sure it translates to 'the reason I forgot what I was about to say.' 😅❤️",adiapye,,"7/4/2026, 5:05:27 PM",systematic,0.0037,0,0.0048,0,0.0037,0,0.007,0,0.0038,0,0.0038,0,0,0,Safe
+213,0,Used her leg as a spring 🦾,beatrizhatz-94,,"6/14/2026, 5:29:37 AM",systematic,0.0228,0,0.1945,0,0.0149,0,0.0795,0,0.011,0,0.0475,0,1,0,Stereotypes/Exclusion
+215,0,I'm straight but DAMN,australiarugby,,"8/22/2025, 10:38:02 AM",systematic,0.9269,1,0.0656,0,0.9504,1,0.0687,0,0.7294,1,0.1657,0,0,0,Safe
+216,0,Dont let the beauty fool you she can run us over,adiapye,,"7/4/2026, 9:38:25 PM",systematic,0.8379,1,0.4937,0,0.7974,1,0.559,1,0.9467,1,0.7275,1,0,0,Safe
+217,0,Damn her thighs 😋,ainsleycummings,,"4/7/2024, 9:22:10 PM",model_flagged,0.9089,1,0.8706,1,0.8031,1,0.8854,1,0.8585,1,0.8897,1,1,1,Sexualisation/Objectification
+218,0,"Pretty woman, Big beauty mouth/lips",arynasabalenka,,"8/28/2026, 8:20:22 AM",model_flagged,0.1393,0,0.469,0,0.0442,0,0.318,0,0.2488,0,0.7953,1,0,0,Safe
+219,0,Love it 😍 looking fantastic 🔥👏,arynasabalenka,,"8/27/2026, 4:25:10 AM",systematic,0.0065,0,0.0081,0,0.0037,0,0.0052,0,0.0065,0,0.0049,0,0,0,Safe
+220,0,You can stick your tongue out all you want but those man arms are not invisible 😂😂😂😂,annafrey,,"10/16/2026, 4:37:51 AM",systematic,0.1422,0,0.1453,0,0.0834,0,0.1006,0,0.2486,0,0.1507,0,1,0,Personal Insult
+221,0,You are simply gorgeous 😈😈😈😈😈😈😈😈🔥🔥🔥🔥🔥🔥❤️❤️❤️❤️❤️👀👀,adiapye,,"7/4/2026, 3:40:14 AM",systematic,0.0186,0,0.053,0,0.01,0,0.0194,0,0.0195,0,0.024,0,0,0,Safe
+222,0,What was the score??,livvydunne,,"1/3/2025, 9:29:59 PM",systematic,0.0032,0,0.0035,0,0.0017,0,0.0028,0,0.0018,0,0.0022,0,0,0,Safe
+224,0,If she doesn’t stop pulling her hair back so tight she’s going to go bald.,arynasabalenka,,"8/27/2026, 4:29:06 AM",random,0.0752,0,0.2848,0,0.2215,0,0.2861,0,0.1616,0,0.5326,1,0,0,Safe
+227,0,Bloke in a dress,arynasabalenka,,"8/27/2026, 9:32:54 AM",model_flagged,0.192,0,0.7883,1,0.0978,0,0.9041,1,0.1208,0,0.5294,1,1,1,Stereotypes/Exclusion
+228,0,"With you looking that beautiful, your fiancé needs to step up his look a little bit!",arynasabalenka,Male sexism,"8/27/2026, 7:08:09 AM",model_flagged,0.0111,0,0.3328,0,0.008,0,0.375,0,0.0058,0,0.6809,1,1,0,Personal Insult
+229,0,Upcoming UFC champion 🏆❤️,gabriellederaoms-233,,"10/5/2023, 11:18:56 AM",systematic,0.0127,0,0.0181,0,0.0079,0,0.0163,0,0.0095,0,0.0143,0,0,0,Safe
+230,0,A true Warrior.,gabriellederaoms-233,,"5/28/2024, 6:45:06 PM",random,0.0155,0,0.0237,0,0.0085,0,0.0152,0,0.0284,0,0.0244,0,0,0,Safe
+231,0,That's beacuse it's against other women that's why,ainsleycummings,,"3/28/2024, 2:34:04 PM",model_flagged,0.0566,0,0.7611,1,0.0464,0,0.8869,1,0.0342,0,0.8222,1,0,0,Safe
+232,0,The one who visits my dreams 😍,arynasabalenka,,"8/26/2026, 11:37:50 PM",systematic,0.0068,0,0.0087,0,0.0074,0,0.0168,0,0.0049,0,0.0054,0,0,0,Safe
+233,0,First one ever,australiarugby,,"8/22/2025, 2:27:47 PM",random,0.0046,0,0.0056,0,0.0034,0,0.0067,0,0.0029,0,0.004,0,0,0,Safe
+234,0,"Once again, I’m gay for… liking women..? I guess that means I like women more than you do too haha :p",ainsleycummings,,"4/2/2024, 6:30:17 AM",model_flagged,0.3359,0,0.8186,1,0.3029,0,0.6055,1,0.2925,0,0.835,1,0,0,Safe
+235,0,It's weird that your smile tells me everything about how tough you are. 💪🏾,gabriellederaoms-233,,"9/7/2023, 4:09:45 AM",systematic,0.0072,0,0.0072,0,0.0054,0,0.0094,0,0.0185,0,0.0067,0,0,0,Safe
+236,0,"""Like everyone else, you want to learn the way to win, but never to accept the way to lose. To accept defeat — to learn to die — is to be liberated from it. Once you accept, you are free"" -Bruce Lee. Fight on, warrior. Flow onto the next",gabriellederaoms-233,,"5/9/2023, 6:04:55 PM",random,0.0147,0,0.0112,0,0.0224,0,0.0295,0,0.0295,0,0.0148,0,0,0,Safe
+238,0,"Bro the thighs, I want it between my neck rn",ainsleycummings,,"4/13/2024, 5:21:11 AM",model_flagged,0.0426,0,0.4356,0,0.0585,0,0.5365,1,0.0739,0,0.7903,1,1,1,Sexualisation/Objectification
+240,0,Anything but tennis🥀🥀😭,annafrey,,"10/13/2026, 9:33:45 AM",systematic,0.0059,0,0.0078,0,0.0032,0,0.0043,0,0.0057,0,0.011,0,1,0,Personal Insult
+241,0,In the wall in turn 1,biancabustamante-125,,"7/4/2025, 8:27:58 PM",systematic,0.0054,0,0.0074,0,0.0077,0,0.0123,0,0.0115,0,0.0178,0,1,0,Personal Insult
+242,0,Still as beautiful as ever Gabs!,gabriellederaoms-233,,"5/9/2023, 6:07:08 PM",systematic,0.0088,0,0.0143,0,0.0055,0,0.0083,0,0.0062,0,0.0133,0,0,0,Safe
+243,0,Heaven and Earth ❤️,adiapye,,"7/11/2026, 11:55:02 PM",systematic,0.0056,0,0.0061,0,0.0043,0,0.0062,0,0.0086,0,0.005,0,0,0,Safe
+245,0,Everyone luvs a rugby game in the mud,ainsleycummings,,"3/28/2024, 3:19:33 PM",random,0.0538,0,0.0462,0,0.0397,0,0.0483,0,0.1608,0,0.0522,0,0,0,Safe
+246,0,Beautiful routine! Great work Liv! 😍,livvydunne,,"1/4/2025, 12:22:47 PM",systematic,0.0043,0,0.0069,0,0.0031,0,0.0061,0,0.0045,0,0.0064,0,0,0,Safe
+248,0,You're awesome. Good luck,biancabustamante-125,,"7/4/2025, 3:28:09 PM",systematic,0.007,0,0.0065,0,0.0031,0,0.0041,0,0.1775,0,0.005,0,0,0,Safe
+249,0,Would look even better in a Bronx’s jersey,adiapye,,"7/4/2026, 11:19:18 AM",random,0.0094,0,0.014,0,0.0106,0,0.0179,0,0.0088,0,0.0281,0,0,0,Safe
+250,0,@crowinthebackrow that’s a stretch acting like women rugby players are more savage then men is a REACH of a take.,ainsleycummings,,"4/22/2024, 5:43:26 PM",model_flagged,0.1415,0,0.6432,1,0.1065,0,0.7814,1,0.2971,0,0.7667,1,1,1,Stereotypes/Exclusion
+251,0,@yobria even still if you do long jump you get as much speed as you can to get a farther jump and that ain’t fast sorry not sorry we ain’t watching the same thing,beatrizhatz-94,,"6/16/2026, 10:54:44 AM",systematic,0.0089,0,0.0072,0,0.0035,0,0.0048,0,0.0101,0,0.0076,0,1,0,Personal Insult
+253,0,I’d definitely need a hip replacement even attempting this. 🙌 ❤️,beatrizhatz-94,,"6/30/2026, 2:52:28 PM",systematic,0.0059,0,0.0197,0,0.0039,0,0.0223,0,0.005,0,0.0076,0,0,0,Safe
+254,0,I love her moves and her thighs...rather watch the ladies,ainsleycummings,,"4/6/2024, 6:28:40 AM",model_flagged,0.0379,0,0.7907,1,0.0331,0,0.785,1,0.0718,0,0.8563,1,1,1,Sexualisation/Objectification
+255,0,Who's the Irish lass from the beginning 👀,ainsleycummings,,"4/2/2024, 10:51:21 AM",random,0.0487,0,0.3236,0,0.0206,0,0.0902,0,0.0562,0,0.223,0,0,0,Safe
+256,0,"Here in Papua New Guinea, rugby is not played on a comfortable field. Its all on rocks and strong soil. For the love of rugby league😁❤️🔥💯",ainsleycummings,,"3/27/2024, 8:08:09 AM",systematic,0.0056,0,0.0083,0,0.0034,0,0.0067,0,0.0056,0,0.0077,0,0,0,Safe
+258,0,"And they want equality. You add to turn it sexual. Can’t you grab in the waist? You have to pull the panties 🤦🏾‍♂️ 
+I am not saying that a don like it.",australiarugby,,"9/30/2025, 5:23:21 AM",model_flagged,0.1444,0,0.8707,1,0.0714,0,0.8521,1,0.2088,0,0.8841,1,1,1,Sexualisation/Objectification
+259,0,.... Do you not know what paralympics are???,beatrizhatz-94,,"7/7/2026, 6:15:31 PM",systematic,0.0046,0,0.0081,0,0.0027,0,0.0064,0,0.0102,0,0.0175,0,0,0,Safe
+260,0,This the kind of white girl I want,adiapye,,"7/4/2026, 11:49:11 AM",model_flagged,0.4774,0,0.4197,0,0.4463,0,0.4231,0,0.541,1,0.8721,1,0,0,Safe
+263,0,Is yo fight available on YouTube? @gabriellederamos,gabriellederaoms-233,,"5/11/2023, 6:46:18 PM",random,0.0094,0,0.015,0,0.01,0,0.022,0,0.0082,0,0.01,0,0,0,Safe
+264,0,"More wedgies. This is gonna work, trust me.",australiarugby,,"9/22/2025, 11:03:00 AM",systematic,0.0059,0,0.0327,0,0.0054,0,0.2904,0,0.0101,0,0.01,0,0,0,Safe
+265,0,Bet that thing grips like pliers,annafrey,,"10/13/2026, 3:17:24 PM",systematic,0.061,0,0.1292,0,0.0125,0,0.0251,0,0.0312,0,0.0427,0,1,1,Sexualisation/Objectification
+266,0,Good luck bia i'm supporting you from Slovenia 🇸🇮 and can we be friends please,biancabustamante-125,,"7/4/2025, 10:26:18 AM",random,0.0045,0,0.0074,0,0.0029,0,0.0057,0,0.0068,0,0.0044,0,0,0,Safe
+267,0,"I didn’t meant to see it , i swear",australiarugby,,"8/23/2025, 3:52:51 PM",random,0.0068,0,0.005,0,0.0067,0,0.0084,0,0.0145,0,0.0048,0,0,0,Safe
+269,0,"People just assume it's easy to do a double back flip from the floor. You have to be able to get some real height to do that and not crack your skull. People don't realize how good all these D1 athletes are, especially in brands where so few people go to the next level.",livvydunne,,"2/18/2025, 9:52:04 PM",systematic,0.014,0,0.0118,0,0.0138,0,0.0245,0,0.0301,0,0.0138,0,0,0,Safe
+271,0,Ur first cuts,gabriellederaoms-233,,"5/9/2023, 8:20:20 PM",systematic,0.0109,0,0.0168,0,0.0059,0,0.0089,0,0.0042,0,0.0068,0,0,0,Safe
+272,0,Yeah idk why no women are supporting your sport,ainsleycummings,,"5/5/2024, 8:47:30 AM",model_flagged,0.0176,0,0.522,1,0.0179,0,0.7308,1,0.0965,0,0.6861,1,1,1,Stereotypes/Exclusion
+273,0,The first girl to get attention she cant catch a shiit,ainsleycummings,,"4/22/2024, 12:59:41 PM",model_flagged,0.0286,0,0.4392,0,0.0071,0,0.0693,0,0.6182,1,0.8117,1,1,0,Personal Insult
+275,0,Man I wish I was her,australiarugby,,"8/23/2025, 7:41:22 PM",random,0.0164,0,0.0759,0,0.0419,0,0.0845,0,0.0274,0,0.0286,0,0,0,Safe
+276,0,"Mad that men performing the exact same manoeuvre don’t show as much skin….. feminism in action, “stop objectifying us!!! But also, objectify us a bit…!!!”
+😂😂😂",australiarugby,,"8/22/2025, 8:07:28 PM",systematic,0.0859,0,0.6558,1,0.1374,0,0.9117,1,0.2859,0,0.9202,1,1,1,Sexualisation/Objectification
+277,0,You’re of Mexican descent?,gabriellederaoms-233,,"8/31/2024, 9:32:05 PM",systematic,0.0093,0,0.0165,0,0.0098,0,0.0237,0,0.0069,0,0.0162,0,0,0,Safe
+279,0,"Do you think she'd leave her life and live a subpar life in Australia with me? Someone if you know her, pass my details and just put in a good word for a bloke who dares to love again",livvydunne,,"1/4/2025, 3:44:13 AM",model_flagged,0.0824,0,0.5949,1,0.0326,0,0.7711,1,0.0219,0,0.3673,0,0,0,Safe
+281,0,When they jump off it’ll be easier to hold them😂,australiarugby,,"8/23/2025, 10:20:33 AM",systematic,0.0109,0,0.0153,0,0.0053,0,0.0109,0,0.0079,0,0.0097,0,0,0,Safe
+282,0,Can you all stop perving over school girls please??? This is a school competition. These aren’t women. It’s making me feel sick reading these comments,ainsleycummings,,"4/12/2024, 5:23:56 AM",model_flagged,0.1634,0,0.677,1,0.4397,0,0.8706,1,0.4348,0,0.8261,1,0,0,Safe
+283,0,You got this!!🔥,biancabustamante-125,,"7/4/2025, 10:49:29 AM",systematic,0.0083,0,0.0068,0,0.0035,0,0.0047,0,0.013,0,0.0082,0,0,0,Safe
+284,0,"You are sexy as fuck! You really need to win the U.S. Open,  I will be supporting you! I don't want you to fall from # 1",arynasabalenka,,"8/27/2026, 6:28:58 AM",systematic,0.9129,1,0.4289,0,0.9539,1,0.7494,1,0.8154,1,0.5666,1,1,1,Sexualisation/Objectification
+285,0,@gwenvanderzwan it’s all good have nothing but respect for these chicks but not to many women play rugby her in America👏,ainsleycummings,,"3/26/2024, 7:38:01 PM",model_flagged,0.2467,0,0.8198,1,0.0957,0,0.9215,1,0.1678,0,0.8592,1,0,0,Safe
+286,0,"@letithappeeeennn is not always on women that they put these comments but I always see them, there’s more in life than just the sport/ job/ work or whatever you assume all her life is. Why can’t we just embrace it or just mind your fucking business and let every women athlete live her life and get her check",arynasabalenka,,"8/29/2026, 10:27:16 AM",model_flagged,0.6475,1,0.551,1,0.7765,1,0.6146,1,0.7187,1,0.8207,1,0,0,Safe
+287,0,"The Harsh Reality of Lust:
+
+Lust promises satisfaction but leaves you emptier each time. It distorts love, damages relationships, and clouds your purpose. It feeds the flesh while starving the soul.
+
+But there’s hope.
+
+Overcome lust — you can do this. You’re stronger than your urges, and God’s grace is enough to carry you through.
+
+“No temptation has overtaken you except what is common to mankind. And God is faithful; He will not let you be tempted beyond what you can bear. But when you are tempted, He will also provide a way out so that you can endure it.”
+
+— 1 Corinthians 10:13",annafrey,,"11/5/2026, 9:12:04 PM",systematic,0.0297,0,0.096,0,0.0247,0,0.14,0,0.0222,0,0.0822,0,0,0,Safe
+289,0,Damn them thighs!! Yes!,ainsleycummings,,"3/28/2024, 7:52:59 AM",model_flagged,0.9166,1,0.8024,1,0.8039,1,0.6702,1,0.9067,1,0.8109,1,1,1,Sexualisation/Objectification
+290,0,Perfect woman does'nt exi 😮,ainsleycummings,,"4/4/2024, 7:16:00 AM",model_flagged,0.0224,0,0.7574,1,0.0171,0,0.4607,0,0.0993,0,0.7917,1,0,0,Safe
+293,0,Maybe there were more women like that,ainsleycummings,,"4/8/2024, 4:21:49 AM",model_flagged,0.0362,0,0.7213,1,0.0092,0,0.5728,1,0.0104,0,0.7743,1,0,0,Safe
+294,0,Some feel sorry but u love it this show up that you are moving 🔥🔥❤️❤️ who feels it knows it,gabriellederaoms-233,,"6/3/2023, 1:32:31 PM",systematic,0.0083,0,0.0065,0,0.0033,0,0.0066,0,0.0079,0,0.0043,0,0,0,Safe
+296,0,@mohsenologi lol it’s not about watching them? It’s about them having fun? That’s like saying “I don’t like watching people read”… well maybe not everything is made for YOU😂,ainsleycummings,,"4/6/2024, 1:32:11 PM",systematic,0.0082,0,0.0107,0,0.0052,0,0.0121,0,0.0106,0,0.0161,0,0,0,Safe
+297,0,Put all that hard work and what you've learnt together it will work out,biancabustamante-125,,"7/4/2025, 3:10:17 PM",random,0.004,0,0.0041,0,0.002,0,0.0027,0,0.0033,0,0.0038,0,0,0,Safe
+299,0,can anyone explain the extra mat for that one pass? in my very limited amount of watching gymnastics ive never seen that before,livvydunne,,"1/4/2025, 4:57:58 PM",systematic,0.0037,0,0.0083,0,0.0019,0,0.0057,0,0.0023,0,0.0042,0,0,0,Safe
+300,0,"Just perfect, wow!",livvydunne,,"1/4/2025, 4:20:55 PM",random,0.0055,0,0.0049,0,0.0026,0,0.0037,0,0.0039,0,0.004,0,0,0,Safe
+301,0,I identify as a 🏉 coughs**,ainsleycummings,,"4/2/2024, 5:51:27 AM",random,0.0709,0,0.0819,0,0.0107,0,0.0194,0,0.0931,0,0.0413,0,0,0,Safe
+302,0,These women are not kitties!!! Women !!,ainsleycummings,,"4/2/2024, 2:15:50 PM",systematic,0.1165,0,0.8041,1,0.0481,0,0.5641,1,0.2247,0,0.8409,1,0,0,Safe
+303,0,"Wait, why do I find this hot?",ainsleycummings,,"4/2/2024, 8:20:35 AM",systematic,0.0302,0,0.2085,0,0.0094,0,0.0293,0,0.0133,0,0.0328,0,0,0,Safe
+304,0,Art ........hope to see you back stronger queen 🙌🏿,gabriellederaoms-233,,"5/12/2023, 3:39:21 AM",systematic,0.0085,0,0.0215,0,0.0091,0,0.0289,0,0.0577,0,0.0745,0,0,0,Safe
+305,0,"@kristysportraits no one’s saying she’s a bad gymnast, but they’re trying to drive attendance to meets and it makes sense the most popular gymnast on the team would be put up to do so in a low-risk meet.  I’m sayings it’s a possibility.  9.875 is a good score for her, but she’s just not among the top gymnasts on the team.  She would likely never be put up to start in high-stakes scenarios sparing a ton of injuries from other athletes.",livvydunne,,"1/4/2025, 2:44:39 PM",random,0.0062,0,0.0158,0,0.0074,0,0.0338,0,0.0033,0,0.0073,0,1,0,Personal Insult
+306,0,My kind of woman,ainsleycummings,,"3/30/2024, 6:03:33 PM",model_flagged,0.1022,0,0.5736,1,0.0122,0,0.3565,0,0.0476,0,0.7256,1,0,0,Safe
+307,0,"My misogyny is decreasing, when I see this, the first she slaps me and could break a vertebra",ainsleycummings,,"4/6/2024, 11:44:58 AM",model_flagged,0.1573,0,0.6022,1,0.1881,0,0.8054,1,0.2835,0,0.7296,1,0,0,Safe
+308,0,@ghostneedstherapy the success of women’s sports starts and ends with women. But women just aren’t interested in women’s sports.,ainsleycummings,,"5/9/2024, 12:19:55 AM",model_flagged,0.0122,0,0.4544,0,0.0132,0,0.5967,1,0.0128,0,0.7394,1,1,1,Stereotypes/Exclusion
+312,0,very nice...how much?,annafrey,,"10/14/2026, 11:37:35 AM",random,0.0031,0,0.0037,0,0.0021,0,0.0039,0,0.0017,0,0.0023,0,0,0,Safe
+313,0,Why aint yu run off the island wit that same energy,beatrizhatz-94,,"6/16/2026, 1:08:24 PM",systematic,0.0114,0,0.0149,0,0.0058,0,0.01,0,0.0144,0,0.0141,0,0,0,Safe
+314,0,Wow such a beautiful smile,gabriellederaoms-233,,"5/9/2023, 6:13:46 PM",random,0.0077,0,0.0081,0,0.0036,0,0.0045,0,0.0048,0,0.0049,0,0,0,Safe
+315,0,She’s such a fire lil baddie 🔥🔥,annafrey,,"10/13/2026, 5:37:02 PM",random,0.0958,0,0.1544,0,0.1314,0,0.5849,1,0.6872,1,0.2514,0,0,0,Safe
+316,0,Welcome to Hungaroring!🇭🇺🙌,biancabustamante-125,,"7/5/2025, 3:29:23 AM",systematic,0.0056,0,0.0077,0,0.0044,0,0.0071,0,0.0081,0,0.006,0,0,0,Safe
+317,0,@ryker_arts everytime she sits and stands up she does based off those thighs,ainsleycummings,,"4/22/2024, 5:44:04 PM",model_flagged,0.0374,0,0.7355,1,0.0626,0,0.8572,1,0.0454,0,0.802,1,1,1,Sexualisation/Objectification
+318,0,Split the difference,australiarugby,,"8/24/2025, 12:04:28 AM",systematic,0.0053,0,0.0069,0,0.0057,0,0.0072,0,0.0053,0,0.0068,0,0,0,Safe
+319,0,@ishowspied no she would get destroyed by a 10 year old boys team! Fact,ainsleycummings,,"4/10/2024, 5:03:07 AM",systematic,0.0931,0,0.2832,0,0.0309,0,0.1431,0,0.0646,0,0.2499,0,1,1,Stereotypes/Exclusion
+320,0,I want to race so bad but I’m broke and it’s too late for me to start so I’m gonna live vicariously through you 😭,biancabustamante-125,,"7/9/2025, 6:07:51 PM",random,0.0257,0,0.0088,0,0.0083,0,0.0147,0,0.0197,0,0.0062,0,0,0,Safe
+321,0,What can’t our strong white women do 💪🏻,adiapye,,"7/5/2026, 5:30:12 AM",model_flagged,0.3056,0,0.5153,1,0.4208,0,0.2515,0,0.4237,0,0.8016,1,0,0,Safe
+325,0,She so fire,annafrey,,"10/13/2026, 10:15:27 AM",random,0.015,0,0.0383,0,0.0692,0,0.1653,0,0.0206,0,0.0273,0,0,0,Safe
+326,0,The first redhead is beautiful,ainsleycummings,,"4/1/2024, 8:18:21 AM",model_flagged,0.3129,0,0.8489,1,0.0157,0,0.4073,0,0.0666,0,0.4319,0,0,0,Safe
+327,0,She's such a cool vibe probably the realest person from love island,beatrizhatz-94,,"6/18/2026, 6:08:23 AM",systematic,0.0117,0,0.0228,0,0.0103,0,0.0199,0,0.011,0,0.0122,0,0,0,Safe
+328,0,Which sport is this that I want to watch?,australiarugby,,"10/1/2025, 8:20:09 AM",systematic,0.0031,0,0.0037,0,0.0017,0,0.0035,0,0.0017,0,0.0022,0,0,0,Safe
+330,0,Ultimate in vulgarity.  Along with her kit😬,arynasabalenka,,"8/27/2026, 1:16:54 AM",model_flagged,0.089,0,0.6892,1,0.0828,0,0.8316,1,0.1703,0,0.5486,1,1,0,Personal Insult
+331,0,"A question for Sabalenka's team:
+Is there any training to improve first-serve efficiency?
+If so, do it immediately.",arynasabalenka,,"9/6/2026, 12:39:06 PM",random,0.0025,0,0.0035,0,0.0018,0,0.0039,0,0.0017,0,0.0021,0,1,0,Personal Insult
+332,0,The sexiest thing about watching sports is a woman practicing it,ainsleycummings,,"4/1/2024, 12:47:16 PM",model_flagged,0.3122,0,0.8606,1,0.0366,0,0.5218,1,0.2058,0,0.8761,1,1,1,Sexualisation/Objectification
+333,0,Everyone have their backs to the girls game,ainsleycummings,,"4/6/2024, 1:58:40 PM",random,0.0105,0,0.0181,0,0.02,0,0.1338,0,0.0064,0,0.1592,0,1,1,Stereotypes/Exclusion
+334,0,Wouwowuow sexy princesa 😍,adiapye,,"7/4/2026, 7:33:49 PM",systematic,0.0207,0,0.5083,1,0.038,0,0.3569,0,0.1672,0,0.8417,1,1,1,Sexualisation/Objectification
+335,0,This is TUFFFFFFFFFF🔥🔥🔥🔥🔥🔥,beatrizhatz-94,,"6/16/2026, 1:14:16 AM",random,0.0052,0,0.0063,0,0.0044,0,0.0069,0,0.0582,0,0.0435,0,0,0,Safe
+336,0,Do women look for any excuse to sexualise themselves?,australiarugby,,"8/23/2025, 2:03:28 AM",model_flagged,0.0941,0,0.8788,1,0.1055,0,0.9284,1,0.2585,0,0.9211,1,1,1,Sexualisation/Objectification
+337,0,Blonde didn’t want any smoke at all,ainsleycummings,,"3/26/2024, 6:45:20 PM",model_flagged,0.0693,0,0.5048,1,0.0381,0,0.3559,0,0.0762,0,0.7222,1,0,0,Safe
+338,0,You are amazing women 😍,gabriellederaoms-233,,"5/10/2023, 4:02:34 AM",random,0.0289,0,0.5031,1,0.0114,0,0.0233,0,0.0487,0,0.09,0,0,0,Safe
+339,0,Rooting for you!! 🔥,biancabustamante-125,,"7/4/2025, 10:29:53 AM",systematic,0.0179,0,0.0245,0,0.0048,0,0.009,0,0.0338,0,0.0247,0,0,0,Safe
+340,0,We should play doubs,annafrey,,"10/13/2026, 1:38:57 PM",systematic,0.0184,0,0.0157,0,0.0127,0,0.0171,0,0.575,1,0.3742,0,0,0,Safe
+341,0,Hey hit us up,annafrey,,"10/13/2026, 11:25:49 PM",random,0.0254,0,0.0129,0,0.0356,0,0.0222,0,0.0098,0,0.0052,0,0,0,Safe
