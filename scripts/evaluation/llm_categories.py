@@ -1,7 +1,7 @@
 """Evaluate Claude Haiku's category predictions against the annotators' categories.
 
 Usage: export ANTHROPIC_API_KEY=...
-       python scripts/evaluation/llm_categories.py --input eval_labeled_A.csv [--limit 10] [--workers 4]
+       python scripts/evaluation/llm_categories.py --input data/labeled/eval_labeled_A.csv [--limit 10] [--workers 4]
 Input CSV needs columns id, text and (for scoring) category. Writes <input>_cat.csv (id, cat_reply, cat_pred).
 Replies are cached in logs/llm_categories_<input>.jsonl so an interrupted run resumes.
 Unparseable replies are counted as wrong (they are listed in the output).

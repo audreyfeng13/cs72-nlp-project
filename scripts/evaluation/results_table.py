@@ -1,7 +1,7 @@
 """Results table (Macro-F1 / Accuracy / Precision / Recall per model) against human labels,
 plus a per-category breakdown using the annotators' own categories.
 
-Usage: python -I scripts/evaluation/results_table.py eval_labeled_A_scored.csv [--haiku haiku_preds.csv] [--label-cat categories|category]
+Usage: python -I scripts/evaluation/results_table.py data/labeled/eval_labeled_A_scored.csv [--haiku haiku_preds.csv] [--label-cat categories|category]
   - scored csv   : labels (toxic, sexist, category) + p_<model> columns from score_eval_set.py
   - --haiku csv  : id, haiku_pred  (from llm_zeroshot.py --input ...); optional, adds the Claude Haiku row (sexism only)
 Rows: Baseline = TF-IDF + logistic regression (Civil Comments toxicity model); DistilBERT Stage 1 = Civil Comments only;

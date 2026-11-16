@@ -2,7 +2,7 @@
 
 Usage:  export ANTHROPIC_API_KEY=...
         python scripts/evaluation/llm_zeroshot.py [--limit 20] [--model claude-haiku-5-5] [--workers 4]
-Own data: python scripts/evaluation/llm_zeroshot.py --input eval_labeled_A.csv   (needs columns id, text; optional 0/1 column `sexist`)
+Own data: python scripts/evaluation/llm_zeroshot.py --input data/labeled/eval_labeled_A.csv   (needs columns id, text; optional 0/1 column `sexist`)
           -> writes <input>_haiku.csv (id, haiku_reply, haiku_pred) for results_table.py --haiku
 
 Predictions are cached in --cache (JSONL), so an interrupted run resumes where it left off.

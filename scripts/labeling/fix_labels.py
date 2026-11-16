@@ -1,5 +1,5 @@
-"""Apply the label corrections from label_review.csv -> eval_labeled_A.csv (+ label_fixes.csv change log).
-Original (archive/eval_labeled_A_original.csv) is never modified. Rule used: the proposed guideline in LABELING_GUIDELINES.md
+"""Apply the label corrections from data/labeled/label_review.csv -> data/labeled/eval_labeled_A.csv (+ data/labeled/label_fixes.csv change log).
+Original (archive/eval_labeled_A_original.csv) is never modified. Rule used: the draft labeling guideline
 (sexualising remarks / desire = Sexualisation + sexist; dismissing women's sport = Stereotypes/Exclusion + sexist;
 no gendered content = not sexist). Model/Haiku output was NOT used to pick any label."""
 import pandas as pd
@@ -21,5 +21,5 @@ for i, (ch, why) in FIX.items():
     for c, v in ch.items():
         old = d.loc[m, c].iloc[0]
         if old != v: log.append({'id': i, 'column': c, 'old': old, 'new': v, 'reason': why, 'text': d.loc[m, 'text'].iloc[0]}); d.loc[m, c] = v
-d.to_csv('eval_labeled_A.csv', index=False); pd.DataFrame(log).to_csv('label_fixes.csv', index=False)
+d.to_csv('data/labeled/eval_labeled_A.csv', index=False); pd.DataFrame(log).to_csv('data/labeled/label_fixes.csv', index=False)
 print(f'{len(log)} cell changes on {len({r["id"] for r in log})} comments; sexist {pd.read_csv("archive/eval_labeled_A_original.csv").sexist.sum()} -> {d.sexist.sum()}')
