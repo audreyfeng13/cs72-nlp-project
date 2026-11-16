@@ -7,7 +7,7 @@ Replies are cached in logs/llm_categories_<input>.jsonl so an interrupted run re
 Unparseable replies are counted as wrong (they are listed in the output).
 """
 import argparse, json, os, sys
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))  # project root, for category_llm
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'app'))  # for category_llm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import anthropic

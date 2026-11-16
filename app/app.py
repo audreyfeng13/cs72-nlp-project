@@ -13,7 +13,7 @@ those definitions (category_llm.py); it needs ANTHROPIC_API_KEY, and without it 
 still works. FLAGGED WORDS are found by deleting each word in turn and ranking words by how much
 the relevant score drops (sexism score, or the toxicity score for Personal Insult).
 
-Run:  streamlit run app.py
+Run (from the project root):  streamlit run app/app.py
 """
 import os
 import re
@@ -29,7 +29,7 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 from category_llm import CATEGORY_MODEL, CATEGORY_NAMES, predict_category
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).resolve().parent.parent  # project root (this file lives in app/)
 BASELINE_PATH = ROOT / "models" / "tfidf_lr.joblib"
 STAGE1_DIR = ROOT / "checkpoints" / "stage1"
 FINETUNED_DIR = ROOT / "checkpoints" / "stage2"
