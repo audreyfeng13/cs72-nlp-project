@@ -1,9 +1,9 @@
 """Evaluate toxicity and sexism predictions SEPARATELY against human labels.
 
-Usage: python evaluate_labeled.py scored.csv [--toxic-col toxic] [--sexist-col sexist] [--category-col category]
+Usage: python scripts/evaluation/evaluate_labeled.py scored.csv [--toxic-col toxic] [--sexist-col sexist] [--category-col category]
 `scored.csv` = a labeled file that has been through score_eval_set.py (has p_<model> columns), e.g.
-    python score_eval_set.py eval_set_labeled.csv eval_set_labeled_scored.csv
-    python evaluate_labeled.py eval_set_labeled_scored.csv
+    python scripts/evaluation/score_eval_set.py eval_set_labeled.csv eval_set_labeled_scored.csv
+    python scripts/evaluation/evaluate_labeled.py eval_set_labeled_scored.csv
 Every model is scored against every label that exists. '*' marks the intended pairing:
 toxic <- stage1 (Civil Comments) models, sexist <- stage2 (EXIST) models.
 95% CIs are bootstrap percentile intervals; with few positives they are WIDE - that is the point.

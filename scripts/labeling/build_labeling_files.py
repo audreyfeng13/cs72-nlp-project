@@ -1,6 +1,6 @@
 """Create independent labeling sheets for two annotators from eval_set_raw.csv.
 
-Usage: python build_labeling_files.py [--raw eval_set_raw.csv] [--outdir .] [--pilot 25] [--force]
+Usage: python scripts/labeling/build_labeling_files.py [--raw eval_set_raw.csv] [--outdir .] [--pilot 25] [--force]
 Writes:  labeling_A.csv, labeling_B.csv   (id, pilot, text, source_account, toxic, sexist, category, notes)
          eval_set_ids.csv                 (id, text, source_account, created_at)  -- key used by merge_labels.py
 Rows are shuffled once (seed 0) so both annotators see the same order and are not primed by account.

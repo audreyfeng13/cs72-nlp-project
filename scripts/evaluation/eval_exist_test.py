@@ -1,6 +1,6 @@
 """All six models on the EXIST 2021 English test set (n = 2,208) in one table.
 
-Usage: python -I eval_exist_test.py
+Usage: python -I scripts/evaluation/eval_exist_test.py
 Rows: Baseline (TF-IDF + LogReg, trained on Civil Comments toxicity), DistilBERT Stage 1 (Civil Comments only),
 DistilBERT / BERT / RoBERTa Stage 2 (Civil Comments -> EXIST), Claude Haiku (zero-shot, answers from the cache
 written by llm_zeroshot.py; no API call is made here). Positive class = sexist, threshold 0.5.

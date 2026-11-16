@@ -1,12 +1,12 @@
 """Compare two annotators' sheets, report agreement, and produce the adjudicated eval set.
 
-Step 1 (default):  python merge_labels.py [--dir .]
+Step 1 (default):  python scripts/labeling/merge_labels.py [--dir .]
     - validates both sheets, prints raw agreement + Cohen's kappa for toxic / sexist / category
       (pilot rows excluded unless --include-pilot)
     - writes eval_set_adjudication.csv: every row with A's and B's labels; the final_* columns are
       pre-filled where A and B agree and LEFT BLANK where they disagree -> discuss and fill in
       (third person decides unresolved cases)
-Step 2:            python merge_labels.py --finalize
+Step 2:            python scripts/labeling/merge_labels.py --finalize
     - requires no blank final_* cells; writes eval_set_labeled.csv
       (id, text, source_account, created_at, toxic, sexist, category) used for model evaluation.
 Agreement is always computed on the annotators' ORIGINAL labels, never the resolved ones.

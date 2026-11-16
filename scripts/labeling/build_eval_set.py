@@ -1,6 +1,6 @@
 """Build eval_set_raw.csv from the collected Instagram comment CSVs.
 
-Usage: python -I build_eval_set.py <csv_dir> [out.csv] [--target 17]
+Usage: python -I scripts/labeling/build_eval_set.py <csv_dir> [out.csv] [--target 17]
 Steps: load CSVs -> keep text, created_at -> drop empty / <3 words / emoji-only / non-English
        -> systematic sampling (every Nth row) per account -> save text, source_account, created_at.
 """

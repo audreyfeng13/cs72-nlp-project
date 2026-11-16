@@ -40,7 +40,7 @@ logs/llm_zeroshot_*.jsonl
 exist_test_scores.csv
 label_review*.csv
 label_fixes.csv
-results_table_labeled_A.txt
+results/results_table_labeled_A.txt
 
 # Archived superseded label files and trial runs (real comments)
 archive/

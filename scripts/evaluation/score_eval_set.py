@@ -1,5 +1,5 @@
 """Score eval_set_raw.csv with every saved sexism checkpoint -> eval_set_scored.csv (raw file untouched).
-Usage: python score_eval_set.py [in.csv] [out.csv]
+Usage: python scripts/evaluation/score_eval_set.py [in.csv] [out.csv]
 Columns added: p_<model> = P(sexist) in [0,1]. Stage1 = Civil Comments only (toxicity baseline);
 stage2 = Civil Comments -> EXIST fine-tuned. Threshold for the *_pred columns is 0.5."""
 import sys, os, json, numpy as np, pandas as pd, torch

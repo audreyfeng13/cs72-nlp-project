@@ -1,5 +1,5 @@
 """Fixed-step training-speed benchmark (immune to sleep/throttling in full-run wall time).
-Usage: python bench_timing.py MODEL [MODEL ...]   (same bs=32, max_len=128 as the real runs)"""
+Usage: python scripts/training/bench_timing.py MODEL [MODEL ...]   (same bs=32, max_len=128 as the real runs)"""
 import sys, time, json, torch, pandas as pd
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 dev = torch.device('mps' if torch.backends.mps.is_available() else 'cpu')

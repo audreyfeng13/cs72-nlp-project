@@ -1,5 +1,5 @@
 """Two-stage DistilBERT fine-tuning: Civil Comments (toxicity) -> EXIST 2021 (sexism, English).
-Usage: python distilbert_2stage.py [--model distilbert-base-uncased] [--n-jigsaw 50000] [--smoke] [--twitter-only]"""
+Usage: python scripts/training/distilbert_2stage.py [--model distilbert-base-uncased] [--n-jigsaw 50000] [--smoke] [--twitter-only]"""
 import argparse, time, numpy as np, pandas as pd, torch
 from torch.utils.data import DataLoader
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, get_linear_schedule_with_warmup

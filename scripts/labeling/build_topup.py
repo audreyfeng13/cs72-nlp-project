@@ -1,6 +1,6 @@
 """Build a top-up set of extra comments to label, because the first 161 contain few sexist comments.
 
-Usage: python -I build_topup.py <csv_dir> [--n-random 90] [--n-flagged 90]
+Usage: python -I scripts/labeling/build_topup.py <csv_dir> [--n-random 90] [--n-flagged 90]
 Pool  = all comments that pass the SAME filters as build_eval_set.py (English, >=3 words, not emoji-only)
         minus the comments already in eval_set_raw.csv.
 Picks = n-random   : equal number per account, uniformly at random (unbiased -> use for prevalence / false-alarm rate)
